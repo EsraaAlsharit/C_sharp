@@ -1,0 +1,15 @@
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\bin\Debug\net6.0\HelloDotnet.exe
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\bin\Debug\net6.0\HelloDotnet.deps.json
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\bin\Debug\net6.0\HelloDotnet.runtimeconfig.json
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\bin\Debug\net6.0\HelloDotnet.dll
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\bin\Debug\net6.0\HelloDotnet.pdb
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\obj\Debug\net6.0\HelloDotnet.csproj.AssemblyReference.cache
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\obj\Debug\net6.0\HelloDotnet.GeneratedMSBuildEditorConfig.editorconfig
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\obj\Debug\net6.0\HelloDotnet.AssemblyInfoInputs.cache
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\obj\Debug\net6.0\HelloDotnet.AssemblyInfo.cs
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\obj\Debug\net6.0\HelloDotnet.csproj.CoreCompileInputs.cache
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\obj\Debug\net6.0\HelloDotnet.dll
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\obj\Debug\net6.0\refint\HelloDotnet.dll
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\obj\Debug\net6.0\HelloDotnet.pdb
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\obj\Debug\net6.0\HelloDotnet.genruntimeconfig.cache
+D:\SDA\C_sharp\Hello .NET\HelloDotnet\obj\Debug\net6.0\ref\HelloDotnet.dll
