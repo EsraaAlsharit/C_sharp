@@ -26,8 +26,8 @@ Complete the following exercises:
   - Each value is a randomly selected flavor from your flavors List (remember Random from earlier?)
 - Loop through the dictionary and print out each user's name and their associated ice cream flavor.
 
-- [ ] Complete the Three Basic Arrays section.
+- [x] Complete the Three Basic Arrays section.
 
-- [ ] Complete the List of Flavors section.
+- [x] Complete the List of Flavors section.
 
-- [ ] Complete the User Dictionary section.
+- [x] Complete the User Dictionary section.

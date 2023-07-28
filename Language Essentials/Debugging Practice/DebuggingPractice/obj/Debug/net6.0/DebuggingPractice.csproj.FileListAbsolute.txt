@@ -1,0 +1,15 @@
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.csproj.AssemblyReference.cache
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.AssemblyInfoInputs.cache
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.AssemblyInfo.cs
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.csproj.CoreCompileInputs.cache
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\bin\Debug\net6.0\DebuggingPractice.exe
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\bin\Debug\net6.0\DebuggingPractice.deps.json
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\bin\Debug\net6.0\DebuggingPractice.runtimeconfig.json
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\bin\Debug\net6.0\DebuggingPractice.dll
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\bin\Debug\net6.0\DebuggingPractice.pdb
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.dll
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\obj\Debug\net6.0\refint\DebuggingPractice.dll
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.pdb
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\obj\Debug\net6.0\DebuggingPractice.genruntimeconfig.cache
+D:\SDA\C_sharp\Language Essentials\Debugging Practice\DebuggingPractice\obj\Debug\net6.0\ref\DebuggingPractice.dll
