@@ -1,0 +1,15 @@
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\obj\Debug\net6.0\FundamentalsII.csproj.AssemblyReference.cache
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\obj\Debug\net6.0\FundamentalsII.GeneratedMSBuildEditorConfig.editorconfig
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\obj\Debug\net6.0\FundamentalsII.AssemblyInfoInputs.cache
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\obj\Debug\net6.0\FundamentalsII.AssemblyInfo.cs
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\obj\Debug\net6.0\FundamentalsII.csproj.CoreCompileInputs.cache
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\bin\Debug\net6.0\FundamentalsII.exe
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\bin\Debug\net6.0\FundamentalsII.deps.json
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\bin\Debug\net6.0\FundamentalsII.runtimeconfig.json
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\bin\Debug\net6.0\FundamentalsII.dll
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\bin\Debug\net6.0\FundamentalsII.pdb
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\obj\Debug\net6.0\FundamentalsII.dll
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\obj\Debug\net6.0\refint\FundamentalsII.dll
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\obj\Debug\net6.0\FundamentalsII.pdb
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\obj\Debug\net6.0\FundamentalsII.genruntimeconfig.cache
+D:\SDA\C_sharp\Language Essentials\Fundamentals II\FundamentalsII\obj\Debug\net6.0\ref\FundamentalsII.dll
