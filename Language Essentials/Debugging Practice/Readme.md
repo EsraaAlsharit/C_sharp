@@ -54,4 +54,4 @@ if(randomNum == 12)
     Console.WriteLine("Hello");
 }
 ````
-- [ ] Debug each challenge by correcting and/or noting the bug causing the issue
+- [x] Debug each challenge by correcting and/or noting the bug causing the issue
