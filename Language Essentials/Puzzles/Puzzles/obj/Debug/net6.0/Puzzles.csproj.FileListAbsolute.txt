@@ -1,0 +1,15 @@
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\obj\Debug\net6.0\Puzzles.csproj.AssemblyReference.cache
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\obj\Debug\net6.0\Puzzles.GeneratedMSBuildEditorConfig.editorconfig
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\obj\Debug\net6.0\Puzzles.AssemblyInfoInputs.cache
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\obj\Debug\net6.0\Puzzles.AssemblyInfo.cs
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\obj\Debug\net6.0\Puzzles.csproj.CoreCompileInputs.cache
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\bin\Debug\net6.0\Puzzles.exe
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\bin\Debug\net6.0\Puzzles.deps.json
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\bin\Debug\net6.0\Puzzles.runtimeconfig.json
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\bin\Debug\net6.0\Puzzles.dll
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\bin\Debug\net6.0\Puzzles.pdb
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\obj\Debug\net6.0\Puzzles.dll
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\obj\Debug\net6.0\refint\Puzzles.dll
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\obj\Debug\net6.0\Puzzles.pdb
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\obj\Debug\net6.0\Puzzles.genruntimeconfig.cache
+D:\SDA\C_sharp\Language Essentials\Puzzles\Puzzles\obj\Debug\net6.0\ref\Puzzles.dll
