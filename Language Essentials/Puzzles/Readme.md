@@ -53,12 +53,12 @@ Write a new function that will roll your 6-sided die until you land on a certain
 ### Optional Bonus
 Can you take some of the methods you wrote and combine them with what you learned about taking in user input and type casting to create an interactive dice roller? Upon starting the project, a user should be prompted to ask what size of die they would like to roll (6-sided, 12-sided, 20-sided, etc...) and receive a result. Optionally, you can also take input to determine if you would like to roll again or run a different function (like Roll Until). Have fun with it!
 
-- [ ] Complete Coin Flip
+- [x] Complete Coin Flip
 
-- [ ] Complete Dice Roll
+- [x] Complete Dice Roll
 
-- [ ] Complete Stat Roll
+- [x] Complete Stat Roll
 
-- [ ] Complete Roll Until
+- [x] Complete Roll Until
 
 - [ ] Bonus: Complete Optional Bonus
