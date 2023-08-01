@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SDA\\C_sharp\\Language Essentials\\Fundamentals I\\FundamentalsI\\FundamentalsI.csproj": {}
+    "D:\\SDA\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals I\\FundamentalsI\\FundamentalsI.csproj": {}
   },
   "projects": {
-    "D:\\SDA\\C_sharp\\Language Essentials\\Fundamentals I\\FundamentalsI\\FundamentalsI.csproj": {
+    "D:\\SDA\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals I\\FundamentalsI\\FundamentalsI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SDA\\C_sharp\\Language Essentials\\Fundamentals I\\FundamentalsI\\FundamentalsI.csproj",
+        "projectUniqueName": "D:\\SDA\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals I\\FundamentalsI\\FundamentalsI.csproj",
         "projectName": "FundamentalsI",
-        "projectPath": "D:\\SDA\\C_sharp\\Language Essentials\\Fundamentals I\\FundamentalsI\\FundamentalsI.csproj",
+        "projectPath": "D:\\SDA\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals I\\FundamentalsI\\FundamentalsI.csproj",
         "packagesPath": "C:\\Users\\hp-pc\\.nuget\\packages\\",
-        "outputPath": "D:\\SDA\\C_sharp\\Language Essentials\\Fundamentals I\\FundamentalsI\\obj\\",
+        "outputPath": "D:\\SDA\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals I\\FundamentalsI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

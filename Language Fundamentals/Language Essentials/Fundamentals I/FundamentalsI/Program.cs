@@ -9,7 +9,7 @@ Console.WriteLine("Create a new loop that generates 5 random numbers between 10 
 // Console.WriteLine(" ");   
 Random rand = new Random();
 int sum = 0;
-for (int i = 1; i <= 5; i++)
+for (int j = 1; j <= 5; j++)
 {
     int tem = rand.Next(10, 20);
     sum += tem;
@@ -21,30 +21,30 @@ Console.WriteLine(sum);
 
 
 Console.WriteLine("Create a new loop that prints all values from 1 to 100 that are divisible by 3 OR 5, but NOT both.");
-for (int i = 1; i <= 100; i++)
+for (int k = 1; k <= 100; k++)
 {
-    if (i % 3 == 0 && i % 5 == 0)
+    if (k % 3 == 0 && k % 5 == 0)
     {
         continue;
     }
-    if (i % 3 == 0 || i % 5 == 0)
+    if (k % 3 == 0 || k % 5 == 0)
     {
-        Console.WriteLine(i);
+        Console.WriteLine(k);
     }
 }
 
 Console.WriteLine("Modify the previous loop to print 'Fizz' for multiples of 3 and 'Buzz' for multiples of 5.");
-for (int i = 1; i <= 100; i++)
+for (int l = 1; l <= 100;l++)
 {
-    if (i % 3 == 0 && i % 5 == 0)
+    if (l % 3 == 0 && l % 5 == 0)
     {
         continue;
     }
-    if (i % 3 == 0)
+    if (l % 3 == 0)
     {
         Console.WriteLine("Fizz");
     }
-    if (i % 3 == 0 || i % 5 == 0)
+    if (l % 3 == 0 || l % 5 == 0)
     {
         Console.WriteLine("Buzz");
 
@@ -52,18 +52,18 @@ for (int i = 1; i <= 100; i++)
 }
 
 Console.WriteLine("Modify the previous loop once more to now also print 'FizzBuzz' for numbers that are multiples of both 3 and 5.");
-for (int i = 1; i <= 100; i++)
+for (int m = 1; m <= 100; m++)
 {
-    if (i % 3 == 0 && i % 5 == 0)
+    if (m % 3 == 0 && m % 5 == 0)
     {
         Console.WriteLine("FizzBuzz");
 
     }
-    if (i % 3 == 0)
+    if (m % 3 == 0)
     {
         Console.WriteLine("Fizz");
     }
-    if (i % 3 == 0 || i % 5 == 0)
+    if (m % 3 == 0 || m % 5 == 0)
     {
         Console.WriteLine("Buzz");
 
@@ -71,22 +71,22 @@ for (int i = 1; i <= 100; i++)
 }
 
 Console.WriteLine("(Optional) If you used for loops for your solutions, try doing the same with while loops. Vice versa if you used while loops!");
-int i = 1;
-while (i <= 100)
+int n = 1;
+while (n<= 100)
 {
-    if (i % 3 == 0 && i % 5 == 0)
+    if (n% 3 == 0 && n% 5 == 0)
     {
         Console.WriteLine("FizzBuzz");
 
     }
-    if (i % 3 == 0)
+    if (n% 3 == 0)
     {
         Console.WriteLine("Fizz");
     }
-    if (i % 3 == 0 || i % 5 == 0)
+    if (n% 3 == 0 || n% 5 == 0)
     {
         Console.WriteLine("Buzz");
 
     }
-    i++;
+    n++;
 }

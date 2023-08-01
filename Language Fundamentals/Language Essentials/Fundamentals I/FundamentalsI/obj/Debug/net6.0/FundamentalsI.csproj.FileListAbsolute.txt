@@ -13,3 +13,18 @@ D:\SDA\C_sharp\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0
 D:\SDA\C_sharp\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0\FundamentalsI.pdb
 D:\SDA\C_sharp\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0\FundamentalsI.genruntimeconfig.cache
 D:\SDA\C_sharp\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0\ref\FundamentalsI.dll
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0\FundamentalsI.csproj.AssemblyReference.cache
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0\FundamentalsI.GeneratedMSBuildEditorConfig.editorconfig
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0\FundamentalsI.AssemblyInfoInputs.cache
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0\FundamentalsI.AssemblyInfo.cs
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0\FundamentalsI.csproj.CoreCompileInputs.cache
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0\FundamentalsI.dll
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0\refint\FundamentalsI.dll
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0\FundamentalsI.pdb
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\bin\Debug\net6.0\FundamentalsI.exe
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\bin\Debug\net6.0\FundamentalsI.deps.json
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\bin\Debug\net6.0\FundamentalsI.runtimeconfig.json
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\bin\Debug\net6.0\FundamentalsI.dll
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\bin\Debug\net6.0\FundamentalsI.pdb
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0\FundamentalsI.genruntimeconfig.cache
+D:\SDA\C_sharp\Language Fundamentals\Language Essentials\Fundamentals I\FundamentalsI\obj\Debug\net6.0\ref\FundamentalsI.dll
