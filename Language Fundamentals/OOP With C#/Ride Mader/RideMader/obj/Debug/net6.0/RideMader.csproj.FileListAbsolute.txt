@@ -1,0 +1,15 @@
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\obj\Debug\net6.0\RideMader.csproj.AssemblyReference.cache
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\obj\Debug\net6.0\RideMader.GeneratedMSBuildEditorConfig.editorconfig
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\obj\Debug\net6.0\RideMader.AssemblyInfoInputs.cache
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\obj\Debug\net6.0\RideMader.AssemblyInfo.cs
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\obj\Debug\net6.0\RideMader.csproj.CoreCompileInputs.cache
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\bin\Debug\net6.0\RideMader.exe
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\bin\Debug\net6.0\RideMader.deps.json
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\bin\Debug\net6.0\RideMader.runtimeconfig.json
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\bin\Debug\net6.0\RideMader.dll
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\bin\Debug\net6.0\RideMader.pdb
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\obj\Debug\net6.0\RideMader.dll
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\obj\Debug\net6.0\refint\RideMader.dll
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\obj\Debug\net6.0\RideMader.pdb
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\obj\Debug\net6.0\RideMader.genruntimeconfig.cache
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Ride Mader\RideMader\obj\Debug\net6.0\ref\RideMader.dll
