@@ -36,18 +36,18 @@ Scenario: You are working alongside a team of game developers on your next big p
 
 Once you have confirmed your code is functional your part is done! Your colleagues will use your code for testing and ask for it to be developed further a little later...
 
-- [ ] Build the Attack class
+- [x] Build the Attack class
 
-- [ ] Build the Enemy class
+- [x] Build the Enemy class
 
-- [ ] Create an instance of an Enemy in Program.cs
+- [x] Create an instance of an Enemy in Program.cs
 
-- [ ] Create 3 instances of Attacks in Program.cs
+- [x] Create 3 instances of Attacks in Program.cs
 
-- [ ] Add these Attacks to your Enemy instance's Attack List
+- [x] Add these Attacks to your Enemy instance's Attack List
 
-- [ ] Call on your Enemy's RandomAttack method to test that they can now perform the given Attacks
+- [x] Call on your Enemy's RandomAttack method to test that they can now perform the given Attacks
 
-- [ ] Bonus: Practice good programming by making the Enemy's Health attribute private and adding a Public version that lets us just see the value of private health
+- [x] Bonus: Practice good programming by making the Enemy's Health attribute private and adding a Public version that lets us just see the value of private health
 
-- [ ] Bonus: Write a method for adding Attacks to your Enemy's AttackList rather than having to call on the List's Add method in Program.cs
+- [x] Bonus: Write a method for adding Attacks to your Enemy's AttackList rather than having to call on the List's Add method in Program.cs
