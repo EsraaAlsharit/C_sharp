@@ -35,6 +35,6 @@ Once your vehicle class has been created, head back to Program.cs and complete t
     - Test this: manually set the distance traveled field to 350 and print the information. If your field was public, this will work. Why is this not the best practice to allow our users to change the distance traveled without going through the Travel() method?
     - Once you know the answer, make the distance traveled field private. How does this affect the code in Program.cs? Why is this better for us? Write comments in your code explaining your reasoning.
 
-- [ ] Create a vehicle class using the features outlined above
+- [x] Create a vehicle class using the features outlined above
 
-- [ ] Test the vehicle class using the prompts above
+- [x] Test the vehicle class using the prompts above
