@@ -52,18 +52,18 @@ Build the following child classes by inheriting from the Drink class. Add more f
 
 Once you have created a few child classes, create instances of each class. Then perform the following actions:
 
-- Create a List of Drinks called AllBeverages and add all your instances to it (congrats! You just practiced polymorphism!)
+- _Create a List of Drinks called AllBeverages and add all your instances to it (congrats! You just practiced polymorphism!)_
 - Add a ShowDrink() method to your Drink class that displays information about the Drink.
 - Loop through your List of AllBeverages and call the ShowDrink() method for each. (Something appears to be missing, right?)
 - Write override methods for each child class that properly displays each class's unique fields and run your loop again. (Much better now!)
 - Bonus: try this line of code Coffee `MyDrink = new Soda();` What is wrong with this? Why will it not work? Leave a commented note about it in Program.cs.
 
-- [ ] Create a Drink class
+- [x] Create a Drink class
 
-- [ ] Create a Soda class
+- [x] Create a Soda class
 
-- [ ] Create a coffee class
+- [x] Create a coffee class
 
-- [ ] Create a wine class
+- [x] Create a wine class
 
 - [ ] Test the classes using the directions above
