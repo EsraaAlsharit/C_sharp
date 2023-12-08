@@ -1,0 +1,15 @@
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.csproj.AssemblyReference.cache
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.GeneratedMSBuildEditorConfig.editorconfig
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.AssemblyInfoInputs.cache
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.AssemblyInfo.cs
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.csproj.CoreCompileInputs.cache
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\bin\Debug\net6.0\GameDeveloperII.exe
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\bin\Debug\net6.0\GameDeveloperII.deps.json
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\bin\Debug\net6.0\GameDeveloperII.runtimeconfig.json
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\bin\Debug\net6.0\GameDeveloperII.dll
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\bin\Debug\net6.0\GameDeveloperII.pdb
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.dll
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\obj\Debug\net6.0\refint\GameDeveloperII.dll
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.pdb
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.genruntimeconfig.cache
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Game Developer II\GameDeveloperII\obj\Debug\net6.0\ref\GameDeveloperII.dll

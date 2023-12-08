@@ -70,9 +70,9 @@ Once you have your PerformAttack() method ready, the next step is to create thre
     - Considering best practices when affecting another character's stats (like in the PerformAttack or Heal method)
     - How you tackled the bonus challenges
 
-- [ ] Add the PerformAttack() method to your Enemy class
+- [x] Add the PerformAttack() method to your Enemy class
 
-- [ ] Create a Melee class to the specifications listed
+- [X] Create a Melee class to the specifications listed
 
 - [ ] Create a Ranged class to the specifications listed
 
