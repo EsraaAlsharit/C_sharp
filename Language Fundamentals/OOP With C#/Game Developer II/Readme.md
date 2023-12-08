@@ -74,10 +74,10 @@ Once you have your PerformAttack() method ready, the next step is to create thre
 
 - [X] Create a Melee class to the specifications listed
 
-- [ ] Create a Ranged class to the specifications listed
+- [x] Create a Ranged class to the specifications listed
 
-- [ ] Create a Magic class to the specifications listed
+- [x] Create a Magic class to the specifications listed
 
-- [ ] Complete the series of actions section
+- [x] Complete the series of actions section
 
 - [ ] Bonus: Complete the bonus challenges
