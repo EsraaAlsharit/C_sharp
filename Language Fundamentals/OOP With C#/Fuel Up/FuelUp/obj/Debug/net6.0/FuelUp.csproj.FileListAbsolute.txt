@@ -1,0 +1,15 @@
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\obj\Debug\net6.0\FuelUp.csproj.AssemblyReference.cache
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\obj\Debug\net6.0\FuelUp.GeneratedMSBuildEditorConfig.editorconfig
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\obj\Debug\net6.0\FuelUp.AssemblyInfoInputs.cache
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\obj\Debug\net6.0\FuelUp.AssemblyInfo.cs
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\obj\Debug\net6.0\FuelUp.csproj.CoreCompileInputs.cache
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\bin\Debug\net6.0\FuelUp.exe
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\bin\Debug\net6.0\FuelUp.deps.json
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\bin\Debug\net6.0\FuelUp.runtimeconfig.json
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\bin\Debug\net6.0\FuelUp.dll
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\bin\Debug\net6.0\FuelUp.pdb
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\obj\Debug\net6.0\FuelUp.dll
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\obj\Debug\net6.0\refint\FuelUp.dll
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\obj\Debug\net6.0\FuelUp.pdb
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\obj\Debug\net6.0\FuelUp.genruntimeconfig.cache
+D:\SDA\C_sharp\Language Fundamentals\OOP With C#\Fuel Up\FuelUp\obj\Debug\net6.0\ref\FuelUp.dll
