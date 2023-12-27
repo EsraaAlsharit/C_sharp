@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SDA\\C_sharp\\Hello .NET\\HelloDotnet\\HelloDotnet.csproj",
+      "projectUniqueName": "D:\\SDA\\C_sharp\\Overview and Installation\\Installation\\Hello .NET\\HelloDotnet\\HelloDotnet.csproj",
       "projectName": "HelloDotnet",
-      "projectPath": "D:\\SDA\\C_sharp\\Hello .NET\\HelloDotnet\\HelloDotnet.csproj",
+      "projectPath": "D:\\SDA\\C_sharp\\Overview and Installation\\Installation\\Hello .NET\\HelloDotnet\\HelloDotnet.csproj",
       "packagesPath": "C:\\Users\\hp-pc\\.nuget\\packages\\",
-      "outputPath": "D:\\SDA\\C_sharp\\Hello .NET\\HelloDotnet\\obj\\",
+      "outputPath": "D:\\SDA\\C_sharp\\Overview and Installation\\Installation\\Hello .NET\\HelloDotnet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
       }
     }
   }
