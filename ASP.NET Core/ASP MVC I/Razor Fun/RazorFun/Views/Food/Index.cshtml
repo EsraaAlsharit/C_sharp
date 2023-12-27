@@ -1,0 +1,34 @@
+@{
+    List<string> food = new List<string> { "Apple Pic", "Pizza", "Cinnaman Rolls", "Lasagna", "Doncolate", "Chocolate Cake",
+"Burritos"
+};
+
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Food</title>
+</head>
+
+<body>
+    <h1>Here are some delicious foods!</h1>
+
+
+    @foreach (var item in food)
+    {
+        if (item.Substring(0, 1) == "C")
+        {
+            <p style="color:red;">@item</p>
+        }
+        else
+        {
+            <p>@item</p>
+        }
+    }
+</body>
+
+</html>

@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 
+@{
+    @* hello *@
+}
+
+
 <head>
     <meta charset="utf-8">
     <title>Hello!</title>
@@ -8,6 +13,12 @@
 
 <body>
     <h1>Hello from our first cshtml file!!</h1>
+
+    @for (int i = 0; i < 5; i++)
+    {
+        <p>lets go @i</p>
+
+    }
 </body>
 
 </html>
