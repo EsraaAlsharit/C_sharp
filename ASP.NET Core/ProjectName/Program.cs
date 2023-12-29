@@ -4,7 +4,7 @@ builder.Services.AddControllersWithViews();//new
 var app = builder.Build();
 
 //new
-app.UseStaticFiles();
+app.UseStaticFiles();//for the images {wwwroot}
 app.UseRouting();
 app.UseAuthorization();
 // --------

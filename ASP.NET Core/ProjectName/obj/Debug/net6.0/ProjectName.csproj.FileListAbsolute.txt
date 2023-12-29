@@ -21,3 +21,4 @@ D:\SDA\C_sharp\ASP.NET Core\ProjectName\obj\Debug\net6.0\ProjectName.genruntimec
 D:\SDA\C_sharp\ASP.NET Core\ProjectName\obj\Debug\net6.0\ref\ProjectName.dll
 D:\SDA\C_sharp\ASP.NET Core\ProjectName\obj\Debug\net6.0\ProjectName.RazorAssemblyInfo.cache
 D:\SDA\C_sharp\ASP.NET Core\ProjectName\obj\Debug\net6.0\ProjectName.RazorAssemblyInfo.cs
+D:\SDA\C_sharp\ASP.NET Core\ProjectName\bin\Debug\net6.0\ProjectName.staticwebassets.runtime.json

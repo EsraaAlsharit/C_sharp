@@ -8,12 +8,14 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="" href="~/css/style.css">
     <title>Hello!</title>
 </head>
 
 <body>
     <h1>Hello from our first cshtml file!!</h1>
-
+    <h3>@ViewBag.name</h3>
+    <img src="~/images/RazorFun.png" alt="">
     @for (int i = 0; i < 5; i++)
     {
         <p>lets go @i</p>
