@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "Eua/wNkEHuy9Dkg8nGdAittyVSICItCQiq3csZV5mow=",
+  "Source": "PortfolioII",
+  "BasePath": "_content/PortfolioII",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortfolioII\\wwwroot",
+      "Source": "PortfolioII",
+      "ContentRoot": "D:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\wwwroot\\css\\style.css",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\wwwroot\\images\\image.png",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "images/image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\image.png"
+    },
+    {
+      "Identity": "D:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\wwwroot\\images\\PortfolioII.png",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "images/PortfolioII.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\PortfolioII.png"
+    }
+  ]
+}
