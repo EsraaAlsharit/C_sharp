@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="" href="~/css/style.css">
+    <meta charset="utf-8">
+    <title>Countdown</title>
+</head>
+
+<body>
+
+    <div class="flex">
+        <div class="box">
+
+            <h2>Start Time</h2>
+            <h3>@ViewBag.startTime</h3>
+
+
+
+
+        </div>
+
+        <div class="box">
+
+            <h2>End Time</h2>
+
+            <h3>@ViewBag.endTime</h3>
+
+
+
+        </div>
+    </div>
+
+
+
+    <div>
+        <h2>Time Remaining</h2>
+        <h3>@ViewBag.RemainingDay Day(s), @ViewBag.RemainingHours Hour(s), @ViewBag.RemainingMinutes Minute(s) Remaining</h3>
+        @* <h3>@ViewBag.RemainingHours</h3>
+        <h3>@ViewBag.RemainingMinutes</h3> *@
+
+    </div>
+
+
+</body>
+
+</html>
