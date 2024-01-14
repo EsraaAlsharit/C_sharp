@@ -93,12 +93,82 @@ namespace ProjectName.Controllers;
 public class HelloController : Controller
 {
     // Other code 
-[HttpGet("")]
-public IActionResult Index()
+    [HttpGet("")]
+    public IActionResult Index()
+    {
+        // Here we assign the value "Hello World!" to the key .Example    
+        // Key names can be whatever you like    
+        ViewBag.name = "Esoo";
+        return View();
+    }
+
+    // Other code
+    [HttpGet("here")]
+    public ViewResult Here()
+    {
+        return View();
+    }
+
+    [HttpGet("redirect")]
+    public RedirectToActionResult GoSomewhere()
+    {
+        // Notice how we reference capital H "Here" from the Action (method) name 
+        // rather than "/here" from the route
+        return RedirectToAction("Here");
+    }
+
+    [HttpGet("redirect")]
+    public RedirectResult GoSomewhereRedirect()
+    {
+        // Notice we do not need to specify localhost:5XXX, just what comes after
+        // If we wanted to redirect to the front page, we would write ("/")
+        return Redirect("/here");
+    }
+
+    //not working 
+    // [HttpGet("result")]
+    // public RedirectToActionResult test()
+    // {
+    //     if(favoriteResponse == "Redirect")
+    //     {
+    //     	return RedirectToAction("Index");
+    //    }else {
+    //         // This route will require that an "ItDepends.cshtml" exists
+    //     	return View("Hello");
+    //     }
+    // }
+    //-----------------------------------------
+
+
+//IActionResult it will return any type of View , RedirectToAction or RedirectToAction
+//but the performance will be less than any other specific type of function
+    [HttpGet("result/{favoriteResponse}")]
+    public IActionResult ItDepends(string favoriteResponse)
+    {
+        if (favoriteResponse == "Redirect")
+        {
+            return RedirectToAction("Index");
+        }
+        else if (favoriteResponse == "Json")
+        {
+            return Json(new { favoriteResponse = favoriteResponse });
+        }
+        else
+        {
+            // This route will require that an "ItDepends.cshtml" exists
+            return View();
+        }
+    }
+
+
+    // remember to use [HttpPost]
+[HttpPost("process")]
+public IActionResult Process(string TextField, int NumberField)
 {    
-    // Here we assign the value "Hello World!" to the key .Example    
-    // Key names can be whatever you like    
-    ViewBag.name = "Esoo";    
-    return View();
+    // Do something with form input
+    Console.WriteLine($"My text was: {TextField}");
+    Console.WriteLine($"My number was: {NumberField}");
+    // Then don't forget to return some kind of result!
+    return RedirectToAction("Index");
 }
 }
