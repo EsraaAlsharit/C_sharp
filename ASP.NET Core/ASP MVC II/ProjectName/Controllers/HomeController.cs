@@ -15,7 +15,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        int mynumber =7;
+        return View(mynumber);
     }
 
     public IActionResult Privacy()
