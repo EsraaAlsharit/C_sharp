@@ -55,7 +55,8 @@ Console.WriteLine("Hello, World!");
 }
 ```
 
-### Intro to ASP.NET Core
+## Intro to ASP.NET Core
+### blid web project
 
 ```md
 dotnet new web --no-https -o ProjectName
@@ -69,4 +70,9 @@ dotnet run
 
 ```md
 dotnet watch run
+```
+
+###  bulid mvc project 
+```md 
+dotnet new mvc --no-https -o ProjectName
 ```
