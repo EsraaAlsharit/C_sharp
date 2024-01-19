@@ -5,10 +5,11 @@ namespace DojoSurvey.Controllers;
 
 public class HelloController : Controller
 {
-    string Name="";
-    string Location="";
-    string Languge="";
-    string Comment="";
+    //prop
+    public string Name { get; set; }
+    public string Location { get; set; }
+    public string Languge { get; set; }
+    public string Comment { get; set; }
 
 
 
@@ -19,10 +20,11 @@ public class HelloController : Controller
     }
 
 
+    //Level 2
     [HttpGet("details")]
     public IActionResult Details()
     {
-    Console.WriteLine("hi in the details");
+        Console.WriteLine("hi in the details");
 
         ViewBag.name = Name;
         ViewBag.loc = Location;
@@ -32,19 +34,23 @@ public class HelloController : Controller
     }
 
 
-
-
     [HttpPost("results")]
     public IActionResult Results(string name, string location, string languge, string comment)
     {
-        this.Name = name;
-        this.Location = location;
-        this.Languge = languge;
-        this.Comment = comment;
 
-        return RedirectToAction("Details");
+        //Level 2
+        // this.Name = name;
+        // this.Location = location;
+        // this.Languge = languge;
+        // this.Comment = comment;
+        // return RedirectToAction("Details");
 
-        // return View("details");
+        ViewBag.name = Name;
+        ViewBag.loc = Location;
+        ViewBag.lan = Languge;
+        ViewBag.com = Comment;
+        return View("details");
+
 
     }
 }

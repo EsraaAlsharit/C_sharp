@@ -25,6 +25,6 @@ For the simplest version of this assignment, it is okay to render on the post re
 
 - [ ] Level 2 (optional): Render the data on a results Get route (how could you hold on to the form data across a redirect?)
 
-- [ ] Create a "Go Back" button that sends you back to the first page.
+- [x] Create a "Go Back" button that sends you back to the first page.
 
 - [x] Bonus: If the user did not fill out a comment, display "No comment" in gray text where the comment would be.
