@@ -8,13 +8,13 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjectName
 build_property.RootNamespace = ProjectName
-build_property.ProjectDir = D:\SDA\C_sharp\ASP.NET Core\ProjectName\
+build_property.ProjectDir = D:\SDA\C_sharp\ASP.NET Core\ASP MVC I\ProjectName\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\SDA\C_sharp\ASP.NET Core\ProjectName
+build_property.MSBuildProjectDirectory = D:\SDA\C_sharp\ASP.NET Core\ASP MVC I\ProjectName
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/SDA/C_sharp/ASP.NET Core/ProjectName/Views/Hello/index.cshtml]
+[D:/SDA/C_sharp/ASP.NET Core/ASP MVC I/ProjectName/Views/Hello/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9caW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

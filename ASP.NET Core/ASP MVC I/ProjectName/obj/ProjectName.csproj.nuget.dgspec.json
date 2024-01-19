@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SDA\\C_sharp\\ASP.NET Core\\ProjectName\\ProjectName.csproj": {}
+    "D:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\ProjectName\\ProjectName.csproj": {}
   },
   "projects": {
-    "D:\\SDA\\C_sharp\\ASP.NET Core\\ProjectName\\ProjectName.csproj": {
+    "D:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\ProjectName\\ProjectName.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SDA\\C_sharp\\ASP.NET Core\\ProjectName\\ProjectName.csproj",
+        "projectUniqueName": "D:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\ProjectName\\ProjectName.csproj",
         "projectName": "ProjectName",
-        "projectPath": "D:\\SDA\\C_sharp\\ASP.NET Core\\ProjectName\\ProjectName.csproj",
+        "projectPath": "D:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\ProjectName\\ProjectName.csproj",
         "packagesPath": "C:\\Users\\hp-pc\\.nuget\\packages\\",
-        "outputPath": "D:\\SDA\\C_sharp\\ASP.NET Core\\ProjectName\\obj\\",
+        "outputPath": "D:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\ProjectName\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
