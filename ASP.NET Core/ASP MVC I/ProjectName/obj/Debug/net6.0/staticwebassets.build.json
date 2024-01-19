@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "7vxqwsiu81qPXmv6u/cFYF8yIVEQJiTAebQFvtMHoC0=",
+  "Source": "ProjectName",
+  "BasePath": "_content/ProjectName",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProjectName\\wwwroot",
+      "Source": "ProjectName",
+      "ContentRoot": "D:\\SDA\\C_sharp\\ASP.NET Core\\ProjectName\\wwwroot\\",
+      "BasePath": "_content/ProjectName",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\SDA\\C_sharp\\ASP.NET Core\\ProjectName\\wwwroot\\css\\style.css",
+      "SourceId": "ProjectName",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SDA\\C_sharp\\ASP.NET Core\\ProjectName\\wwwroot\\",
+      "BasePath": "_content/ProjectName",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\SDA\\C_sharp\\ASP.NET Core\\ProjectName\\wwwroot\\images\\RazorFun.png",
+      "SourceId": "ProjectName",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SDA\\C_sharp\\ASP.NET Core\\ProjectName\\wwwroot\\",
+      "BasePath": "_content/ProjectName",
+      "RelativePath": "images/RazorFun.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\RazorFun.png"
+    }
+  ]
+}
