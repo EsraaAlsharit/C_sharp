@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SDA\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\FirstCSharp.csproj",
+      "projectUniqueName": "d:\\SDA\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\FirstCSharp.csproj",
       "projectName": "FirstCSharp",
-      "projectPath": "D:\\SDA\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\FirstCSharp.csproj",
+      "projectPath": "d:\\SDA\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\FirstCSharp.csproj",
       "packagesPath": "C:\\Users\\hp-pc\\.nuget\\packages\\",
-      "outputPath": "D:\\SDA\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\obj\\",
+      "outputPath": "d:\\SDA\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

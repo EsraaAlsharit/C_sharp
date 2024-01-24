@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SDA\\C_sharp\\Language Fundamentals\\OOP With C#\\Game Developer I\\GameDeveloperI\\GameDeveloperI.csproj",
+      "projectUniqueName": "d:\\SDA\\C_sharp\\Language Fundamentals\\OOP With C#\\Game Developer I\\GameDeveloperI\\GameDeveloperI.csproj",
       "projectName": "GameDeveloperI",
-      "projectPath": "D:\\SDA\\C_sharp\\Language Fundamentals\\OOP With C#\\Game Developer I\\GameDeveloperI\\GameDeveloperI.csproj",
+      "projectPath": "d:\\SDA\\C_sharp\\Language Fundamentals\\OOP With C#\\Game Developer I\\GameDeveloperI\\GameDeveloperI.csproj",
       "packagesPath": "C:\\Users\\hp-pc\\.nuget\\packages\\",
-      "outputPath": "D:\\SDA\\C_sharp\\Language Fundamentals\\OOP With C#\\Game Developer I\\GameDeveloperI\\obj\\",
+      "outputPath": "d:\\SDA\\C_sharp\\Language Fundamentals\\OOP With C#\\Game Developer I\\GameDeveloperI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

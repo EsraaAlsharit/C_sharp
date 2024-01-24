@@ -15,8 +15,14 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        int mynumber =7;
-        return View(mynumber);
+        // int mynumber = 7;
+        Friend myfirend = new Friend()
+        {
+            FristName = "Esraa",
+            LastName = "Alsharit"
+        };
+        // return View(mynumber);
+        return View( myfirend);
     }
 
     public IActionResult Privacy()
