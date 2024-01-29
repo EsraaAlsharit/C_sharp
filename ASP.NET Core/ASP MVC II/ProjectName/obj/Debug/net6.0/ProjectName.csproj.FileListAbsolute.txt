@@ -30,3 +30,29 @@ D:\SDA\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\staticwebass
 D:\SDA\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ProjectName.props
 D:\SDA\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ProjectName.props
 D:\SDA\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\bin\Debug\net6.0\appsettings.Development.json
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\bin\Debug\net6.0\appsettings.json
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\bin\Debug\net6.0\ProjectName.staticwebassets.runtime.json
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\bin\Debug\net6.0\ProjectName.exe
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\bin\Debug\net6.0\ProjectName.deps.json
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\bin\Debug\net6.0\ProjectName.runtimeconfig.json
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\bin\Debug\net6.0\ProjectName.dll
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\bin\Debug\net6.0\ProjectName.pdb
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.csproj.AssemblyReference.cache
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.AssemblyInfoInputs.cache
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.AssemblyInfo.cs
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.csproj.CoreCompileInputs.cache
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.MvcApplicationPartsAssemblyInfo.cache
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.RazorAssemblyInfo.cache
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.RazorAssemblyInfo.cs
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\staticwebassets.build.json
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\staticwebassets.development.json
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\scopedcss\bundle\ProjectName.styles.css
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\scopedcss\projectbundle\ProjectName.bundle.scp.css
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.dll
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\refint\ProjectName.dll
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.pdb
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.genruntimeconfig.cache
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ref\ProjectName.dll

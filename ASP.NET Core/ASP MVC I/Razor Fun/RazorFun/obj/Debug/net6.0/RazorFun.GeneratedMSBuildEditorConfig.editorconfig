@@ -5,19 +5,16 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RazorFun
 build_property.RootNamespace = RazorFun
-build_property.ProjectDir = D:\SDA\C_sharp\ASP.NET Core\ASP MVC I\Razor Fun\RazorFun\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC I\Razor Fun\RazorFun\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\SDA\C_sharp\ASP.NET Core\ASP MVC I\Razor Fun\RazorFun
+build_property.MSBuildProjectDirectory = D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC I\Razor Fun\RazorFun
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/SDA/C_sharp/ASP.NET Core/ASP MVC I/Razor Fun/RazorFun/Views/Food/Index.cshtml]
+[D:/Coding dojo couress/C_sharp/ASP.NET Core/ASP MVC I/Razor Fun/RazorFun/Views/Food/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

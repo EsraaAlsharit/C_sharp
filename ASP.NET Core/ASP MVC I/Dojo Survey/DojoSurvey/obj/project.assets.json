@@ -8,25 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\hp-pc\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\asr27\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\Dojo Survey\\DojoSurvey\\DojoSurvey.csproj",
+      "projectUniqueName": "d:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Dojo Survey\\DojoSurvey\\DojoSurvey.csproj",
       "projectName": "DojoSurvey",
-      "projectPath": "d:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\Dojo Survey\\DojoSurvey\\DojoSurvey.csproj",
-      "packagesPath": "C:\\Users\\hp-pc\\.nuget\\packages\\",
-      "outputPath": "d:\\SDA\\C_sharp\\ASP.NET Core\\ASP MVC I\\Dojo Survey\\DojoSurvey\\obj\\",
+      "projectPath": "d:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Dojo Survey\\DojoSurvey\\DojoSurvey.csproj",
+      "packagesPath": "C:\\Users\\asr27\\.nuget\\packages\\",
+      "outputPath": "d:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Dojo Survey\\DojoSurvey\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hp-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\asr27\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -71,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
       }
     }
   }

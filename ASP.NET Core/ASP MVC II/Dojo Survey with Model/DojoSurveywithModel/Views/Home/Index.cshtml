@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+        <form action="results" method="post">    
+    <label>Your Name:</label>    
+    <input type="text" name="Name">
+
+    <label>Dojo Location:</label>    
+    <select name="location">  
+        <option value="Gryffindor">Gryffindor</option>        
+        <option value="Ravenclaw">Ravenclaw</option>        
+        <option value="Slytherin">Slytherin</option>        
+        <option value="Hufflepuff">Hufflepuff</option>    
+    </select>    
+    <label>Favorite Language:</label>    
+    <select name="languge">
+        <option value="Java">Java</option>        
+        <option value="C#">C#</option>        
+        <option value="C++">C++</option>        
+        <option value="PHP">PHP</option>    
+    </select>    
+
+    <label>Comment (optional):</label>    
+     <textarea name="comment" ></textarea>
+    
+    <input type="submit" value="Submit"/>
+</form>
+</div>
