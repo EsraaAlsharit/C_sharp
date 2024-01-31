@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+@model User
+<div>
+    <h2>my form</h2>
+    <form action="User" method="post">
+        <div>
+            <label asp-for="Username"></label>
+            <input asp-for="Username">
+            <span asp-validation-for="Username"></span>
+        </div>
+        <div>
+            <label asp-for="Email"></label>
+            <input asp-for="Email">
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div>
+            <label asp-for="Password"></label>
+            <input type="password" asp-for="Password">
+            <span asp-validation-for="Password"></span>
+
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</div>

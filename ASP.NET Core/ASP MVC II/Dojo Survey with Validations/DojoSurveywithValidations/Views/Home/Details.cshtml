@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Results survey";
+}
+
+@model Survey
+
+<div class="text-center">
+
+
+    <table>
+        <tr>
+            <td>Your Name:</td>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <td>Dojo Location:</td>
+            <td>@Model.Location</td>
+        </tr>
+        <tr>
+            <td>Favorite Language:</td>
+            <td>@Model.Languge</td>
+        </tr>
+        <tr>
+            <td>Comment (optional):</td>
+            <td>@Model.Comment</td>
+        </tr>
+
+    </table>
+
+    <a href="/">Back</a>
+
+</div>
