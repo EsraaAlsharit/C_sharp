@@ -21,7 +21,7 @@ Use the checklist below to add the appropriate validations.
 
 - [x] Name should be no less than 2 characters.
 
-- [ ] Comment isn't required, but if included, should be more than 20 characters.
+- [x] Comment isn't required, but if included, should be more than 20 characters.
 
 - [x] If the submission is invalid, render errors.
 
