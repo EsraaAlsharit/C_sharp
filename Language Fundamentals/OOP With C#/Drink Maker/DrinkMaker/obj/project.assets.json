@@ -8,23 +8,25 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\asr27\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hp-pc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\DrinkMaker.csproj",
+      "projectUniqueName": "h:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\DrinkMaker.csproj",
       "projectName": "DrinkMaker",
-      "projectPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\DrinkMaker.csproj",
-      "packagesPath": "C:\\Users\\asr27\\.nuget\\packages\\",
-      "outputPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\obj\\",
+      "projectPath": "h:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\DrinkMaker.csproj",
+      "packagesPath": "C:\\Users\\hp-pc\\.nuget\\packages\\",
+      "outputPath": "h:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\asr27\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hp-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -66,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
