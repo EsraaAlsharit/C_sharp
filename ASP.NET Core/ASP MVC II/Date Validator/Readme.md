@@ -34,4 +34,4 @@ If you need extra assistance in getting started, consider these prompts:
 
 - [x] Render an error on unsuccessful submission.
 
-- [ ] Render a success page on successful submission.
+- [x] Render a success page on successful submission.
