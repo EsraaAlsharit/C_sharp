@@ -38,7 +38,6 @@ D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\bin\Debug\net
 D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\bin\Debug\net6.0\ProjectName.runtimeconfig.json
 D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\bin\Debug\net6.0\ProjectName.dll
 D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\bin\Debug\net6.0\ProjectName.pdb
-D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.csproj.AssemblyReference.cache
 D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.GeneratedMSBuildEditorConfig.editorconfig
 D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.AssemblyInfoInputs.cache
 D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.AssemblyInfo.cs
@@ -87,3 +86,9 @@ H:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net
 H:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.pdb
 H:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.genruntimeconfig.cache
 H:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ref\ProjectName.dll
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\ProjectName.sourcelink.json
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\staticwebassets\msbuild.ProjectName.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\staticwebassets\msbuild.build.ProjectName.props
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ProjectName.props
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ProjectName.props
+D:\Coding dojo couress\C_sharp\ASP.NET Core\ASP MVC II\ProjectName\obj\Debug\net6.0\staticwebassets.pack.json

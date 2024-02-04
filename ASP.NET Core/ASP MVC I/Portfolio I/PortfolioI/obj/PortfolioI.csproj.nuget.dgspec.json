@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "h:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio I\\PortfolioI\\PortfolioI.csproj": {}
+    "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio I\\PortfolioI\\PortfolioI.csproj": {}
   },
   "projects": {
-    "h:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio I\\PortfolioI\\PortfolioI.csproj": {
+    "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio I\\PortfolioI\\PortfolioI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "h:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio I\\PortfolioI\\PortfolioI.csproj",
+        "projectUniqueName": "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio I\\PortfolioI\\PortfolioI.csproj",
         "projectName": "PortfolioI",
-        "projectPath": "h:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio I\\PortfolioI\\PortfolioI.csproj",
-        "packagesPath": "C:\\Users\\hp-pc\\.nuget\\packages\\",
-        "outputPath": "h:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio I\\PortfolioI\\obj\\",
+        "projectPath": "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio I\\PortfolioI\\PortfolioI.csproj",
+        "packagesPath": "C:\\Users\\asr27\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio I\\PortfolioI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asr27\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

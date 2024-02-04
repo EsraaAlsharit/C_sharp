@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "h:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj": {}
+    "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj": {}
   },
   "projects": {
-    "h:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj": {
+    "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "h:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj",
+        "projectUniqueName": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj",
         "projectName": "FuelUp",
-        "projectPath": "h:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj",
-        "packagesPath": "C:\\Users\\hp-pc\\.nuget\\packages\\",
-        "outputPath": "h:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\obj\\",
+        "projectPath": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj",
+        "packagesPath": "C:\\Users\\asr27\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asr27\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

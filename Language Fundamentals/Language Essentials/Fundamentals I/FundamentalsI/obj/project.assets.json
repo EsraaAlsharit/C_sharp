@@ -8,25 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\hp-pc\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\asr27\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "h:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals I\\FundamentalsI\\FundamentalsI.csproj",
+      "projectUniqueName": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals I\\FundamentalsI\\FundamentalsI.csproj",
       "projectName": "FundamentalsI",
-      "projectPath": "h:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals I\\FundamentalsI\\FundamentalsI.csproj",
-      "packagesPath": "C:\\Users\\hp-pc\\.nuget\\packages\\",
-      "outputPath": "h:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals I\\FundamentalsI\\obj\\",
+      "projectPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals I\\FundamentalsI\\FundamentalsI.csproj",
+      "packagesPath": "C:\\Users\\asr27\\.nuget\\packages\\",
+      "outputPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals I\\FundamentalsI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hp-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\asr27\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

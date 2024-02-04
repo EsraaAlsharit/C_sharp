@@ -1,8 +1,23 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+@{
+    ViewData["Title"] = "Event Form";
 }
+@model Events
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <form action="new" method="post">
+        <div>
+            <label asp-for="Title"></label>
+            <input asp-for="Title">
+            <span asp-validation-for="Title"></span>
+        </div>
+        <div>
+            <label asp-for="Date"></label>
+            <input asp-for="Date">
+            <span asp-validation-for="Date"></span>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
 </div>

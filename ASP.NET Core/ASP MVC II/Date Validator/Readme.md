@@ -28,10 +28,10 @@ If you need extra assistance in getting started, consider these prompts:
 - How can I tell that the date that was given is a date in the future? (You may need to consider how you get what today's date is and how you compare two dates.)
 - Hint: If you completed the Countdown assignment from earlier in the course, that assignment could be a great reference!
 
-- [ ] Make an MVC project with a form that takes a date, or add a date input to an existing project.
+- [x] Make an MVC project with a form that takes a date, or add a date input to an existing project.
 
-- [ ] Create a custom validation to verify that the submitted date is in the past.
+- [x] Create a custom validation to verify that the submitted date is in the past.
 
-- [ ] Render an error on unsuccessful submission.
+- [x] Render an error on unsuccessful submission.
 
 - [ ] Render a success page on successful submission.
