@@ -15,6 +15,9 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        HttpContext.Session.SetString("Username", "Esoo_chan");//make or set session string 
+        HttpContext.Session.SetInt32("age", 27);//make or set session int
+
         // int mynumber = 7;
         Friend myfirend = new Friend()
         {
@@ -27,7 +30,13 @@ public class HomeController : Controller
 
     public IActionResult Privacy()
     {
-        return View();
+
+        //setString()//update
+        string? userName = HttpContext.Session.GetString("Username");//get session
+        int? age = HttpContext.Session.GetInt32("age");//get int session
+        //if i want to make operation on the int sesstion i should type cost it 
+        //becouse int != int?
+        return View("Privacy",userName);
     }
     public IActionResult Register()
     {
@@ -38,6 +47,12 @@ public class HomeController : Controller
     public IActionResult User()
     {
         return View();
+    }
+    [HttpGet("clear")]
+    public IActionResult ClearSesstion()
+    {
+        HttpContext.Session.Clear();//all of the sessions
+        return RedirectToAction("Index");
     }
 
     [HttpPost("Home/registerWizard")]
@@ -72,9 +87,9 @@ public class HomeController : Controller
             Console.WriteLine(user.Username);
             Console.WriteLine(user.Email);
             Console.WriteLine(user.Password);
-              // Do somethng! Maybe insert into a database or log data to the console  
-        // Then we will redirect to a new page        
-        return RedirectToAction("Index"); 
+            // Do somethng! Maybe insert into a database or log data to the console  
+            // Then we will redirect to a new page        
+            return RedirectToAction("Index");
         }
         else
         {
