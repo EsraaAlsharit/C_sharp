@@ -18,10 +18,11 @@ public class HomeController : Controller
         return View();
     }
 
-        [HttpPost("new")]
-    public IActionResult NewUser(User user) 
+    [HttpPost("new")]
+    public IActionResult NewUser(User user)
     {
-        if (ModelState.IsValid){
+        if (ModelState.IsValid)
+        {
             Console.WriteLine(user.Name);
             Console.WriteLine(user.Email);
             Console.WriteLine(user.DOB);

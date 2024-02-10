@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+<h1>@Context.Session.GetString("name")</h1>
+
+<div>
+    <h3>
+        @Context.Session.GetInt32("number")
+    </h3>
+    <div>
+        <form action="operations" method="post">
+            <input type="submit" value="+1" name="operation">
+            <input type="submit" value="-1" name="operation">
+            <input type="submit" value="x2" name="operation">
+            <input type="submit" value="+ Random" name="operation">
+        </form>
+    </div>
+</div>

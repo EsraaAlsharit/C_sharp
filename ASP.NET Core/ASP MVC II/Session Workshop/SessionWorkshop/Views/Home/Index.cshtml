@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <form action="Login" method="post">
+        <div>
+            <label >Please give your name:</label>
+            <input type="Name" name="Name">
+            
+            <span>@ViewBag.err</span>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</div>
