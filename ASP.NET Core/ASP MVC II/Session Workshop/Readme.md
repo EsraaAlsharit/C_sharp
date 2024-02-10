@@ -27,7 +27,7 @@ Time to test out your newfound session skills by making and editing some session
 
 - [x] Establish a starting value
 
-- [ ] Create functionality for +1, -1, x2 and +random
+- [x] Create functionality for +1, -1, x2 and +random
 
 - [x] Implement logout feature
 
