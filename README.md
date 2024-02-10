@@ -76,3 +76,7 @@ dotnet watch run
 ```md 
 dotnet new mvc --no-https -o ProjectName
 ```
+### everything is up to date
+```md
+dotnet restore
+```
