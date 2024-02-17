@@ -11,9 +11,12 @@ dotnet --version
 ### Installing Tools: dotnet-ef
 
 **run it once to make it global**
+it is for Entity Framework Core Entity Framework and Connecting to MySQL
 
 ```md
 dotnet tool install --global dotnet-ef
+
+dotnet tool install --global dotnet-ef --version 8.\*
 ```
 
 ### Installing the "C# for Visual Studio Code" plugin from OmniSharp
@@ -56,6 +59,7 @@ Console.WriteLine("Hello, World!");
 ```
 
 ## Intro to ASP.NET Core
+
 ### blid web project
 
 ```md
@@ -72,11 +76,39 @@ dotnet run
 dotnet watch run
 ```
 
-###  bulid mvc project 
-```md 
+### bulid mvc project
+
+```md
 dotnet new mvc --no-https -o ProjectName
 ```
+
 ### everything is up to date
+
 ```md
 dotnet restore
 ```
+
+### Head into your project and run these two commands from the terminal:
+will be in `ProjectName.csproj` file
+```md
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 6.0.1
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.3
+```
+
+ ### make migrations 
+needed just ones for connected to DB
+```md
+dotnet ef migrations add FirstMigration
+```
+or
+```md
+dotnet ef migrations add FirstMigration -v
+```
+
+### push the changes for the database to sql
+it can be reuse for the code 
+```md
+dotnet ef database update
+```
+
+
