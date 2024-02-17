@@ -9,6 +9,7 @@ public class Pet
     public string Name { get; set; } 
     public int age { get; set; }
     public string type { get; set; }
+    //dog, cat, bird
     public bool fur { get; set; }
     //time stamp
     public DateTime CreatedAt { get; set; } = DateTime.Now;
