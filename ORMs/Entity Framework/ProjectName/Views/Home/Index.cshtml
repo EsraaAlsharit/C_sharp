@@ -1,8 +1,29 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@* @model Monster *@
+@model List<Monster>
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h2>Monsters</h2>
+
+    <table>
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th>Height</th>
+            <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Monster monster in @Model)
+            {
+                <tr>
+                <td>@monster.Name</td>
+                <td>@monster.Height</td>
+                <td>@monster.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>

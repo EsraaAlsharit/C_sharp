@@ -18,12 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Coding dojo couress\C_sharp\ORMs\Entity Framework\ProjectName
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Coding dojo couress/C_sharp/ORMs/Entity Framework/ProjectName/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/Coding dojo couress/C_sharp/ORMs/Entity Framework/ProjectName/Views/Home/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding dojo couress/C_sharp/ORMs/Entity Framework/ProjectName/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/Coding dojo couress/C_sharp/ORMs/Entity Framework/ProjectName/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Coding dojo couress/C_sharp/ORMs/Entity Framework/ProjectName/Views/Shared/Error.cshtml]
