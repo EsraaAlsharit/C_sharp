@@ -10,18 +10,27 @@
     <table>
         <thead>
             <tr>
-            <th>Name</th>
-            <th>Height</th>
-            <th>Description</th>
+                <th>Name</th>
+                <th>Height</th>
+                <th>Description</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
             @foreach (Monster monster in @Model)
             {
                 <tr>
-                <td>@monster.Name</td>
-                <td>@monster.Height</td>
-                <td>@monster.Description</td>
+                    <td>@monster.Name</td>
+                    <td>@monster.Height</td>
+                    <td>@monster.Description</td>
+                    <td>
+                        <form asp-action="Destroy" asp-controller="Home" asp-route-id="@monster.MonsterId"
+                            method="post">
+                            <input type="submit" value="Delete">
+                        </form>
+                        <a href="/@monster.MonsterId/edit">Edit</a>
+                        <a href="/@monster.MonsterId">View</a>
+                    </td>
                 </tr>
             }
         </tbody>

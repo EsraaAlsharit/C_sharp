@@ -6,7 +6,7 @@
 <div class="text-center">
     <h2>New Monster</h2>
 
-    <form action="create" method="post">
+    <form asp-controller="Home" asp-action="create" method="post">
         <div>
             <label asp-for="Name">Name:</label>
             <input asp-for="Name"> <!-- updated -->

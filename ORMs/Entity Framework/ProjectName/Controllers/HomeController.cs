@@ -19,7 +19,7 @@ public class HomeController : Controller
         _context = context;
     }
     [HttpGet("")]
-    
+
     public IActionResult Index()
     {
         // Now any time we want to access our database we use _context   
@@ -27,33 +27,79 @@ public class HomeController : Controller
         // Monster؟ Monster = _context.Monsters.FirstOrDefault(i => i.MonsterId== id);
         return View(AllMonsters);
     }
-    public IActionResult Form()
+    public IActionResult New()
     {
         return View();
     }
 
-
-    // Inside HomeController
-    [HttpPost("Home/create")]
-    public IActionResult CreateMonster(Monster newMon)
+    [HttpGet("{id}")]
+    public IActionResult Show(int id)
     {
+        Monster? monster = _context.Monsters.FirstOrDefault(i => i.MonsterId == id);
+
+        return View(monster);
+    }
+
+    [HttpGet("{id}/edit")]
+    public IActionResult Edit(int id)
+    {
+        // Now any time we want to access our database we use _context   
+        Monster? monster = _context.Monsters.FirstOrDefault(i => i.MonsterId == id);
+        return View(monster);
+    }
+
+    [HttpPost("{id}/Update")]
+    public IActionResult Update(int id, Monster newMon)
+    {
+
+        Monster? monster = _context.Monsters.FirstOrDefault(i => i.MonsterId == id);
+        
         if (ModelState.IsValid)
         {
-            // We can take the Monster object created from a form submission
-            // and pass the object through the .Add() method  
-            // Remember that _context is our database  
-            _context.Add(newMon);
-            // OR _context.Monsters.Add(newMon); if we want to specify the table
-            // EF Core will be able to figure out which table you meant based on the model  
-            // VERY IMPORTANT: save your changes at the end! 
+            monster.Name = newMon.Name;
+            monster.Height = newMon.Height;
+            monster.Description = newMon.Description;
+            monster.UpdatedAt = DateTime.Now;
+
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
         else
         {
             // Handle unsuccessful validations
-            return View("Form");
+            return View("Form",newMon);
 
         }
     }
+
+
+[HttpPost("{id}/destroy")]
+public IActionResult Destroy(int id)
+{
+    Monster? MonToDelete = _context.Monsters.SingleOrDefault(i => i.MonsterId == id);
+    // Once again, it could be a good idea to verify the monster exists before deleting
+    _context.Monsters.Remove(MonToDelete);
+    _context.SaveChanges();
+    return RedirectToAction("Index");
+}
+
+[HttpPost("Home/create")]
+public IActionResult Create(Monster newMon){
+    if (ModelState.IsValid){
+        // We can take the Monster object created from a form submission
+        // and pass the object through the .Add() method  
+        // Remember that _context is our database  
+        _context.Add(newMon);
+        // OR _context.Monsters.Add(newMon); if we want to specify the table
+        // EF Core will be able to figure out which table you meant based on the model  
+        // VERY IMPORTANT: save your changes at the end! 
+        _context.SaveChanges();
+        return RedirectToAction("Index");
+    }
+    else
+    {
+        // Handle unsuccessful validations
+        return View("New");
+    }
+}
 }

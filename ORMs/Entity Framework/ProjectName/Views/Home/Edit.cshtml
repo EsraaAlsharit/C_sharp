@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Monster
+
+<div class="text-center">
+    <h2>Monster @Model.Name</h2>
+
+    <form asp-controller="Home" asp-action="Update" asp-route-id="@Model.MonsterId" method="post">
+        <div>
+            <label asp-for="Name">Name:</label>
+            <input asp-for="Name"> <!-- updated -->
+        </div>
+        <div>
+            <label asp-for="Height">Height:</label>
+            <input asp-for="Height" type="text" name="Height"> <!-- updated -->
+        </div>
+        <div>
+            <label asp-for="Description">Description:</label>
+            <textarea asp-for="Description">
+
+    </textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+</div>
