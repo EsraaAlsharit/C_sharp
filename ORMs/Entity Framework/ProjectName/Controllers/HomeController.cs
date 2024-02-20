@@ -27,6 +27,10 @@ public class HomeController : Controller
         // Monster؟ Monster = _context.Monsters.FirstOrDefault(i => i.MonsterId== id);
         return View(AllMonsters);
     }
+    public IActionResult Default()
+    {
+        return View();
+    }
     public IActionResult New()
     {
         return View();

@@ -1,10 +1,13 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-@* @model Monster *@
+
+
 @model List<Monster>
 
 <div class="text-center">
+    @await Html.PartialAsync("_Navbar")
+
     <h2>Monsters</h2>
 
     <table>
@@ -24,8 +27,7 @@
                     <td>@monster.Height</td>
                     <td>@monster.Description</td>
                     <td>
-                        <form asp-action="Destroy" asp-controller="Home" asp-route-id="@monster.MonsterId"
-                            method="post">
+                        <form asp-action="Destroy" asp-controller="Home" asp-route-id="@monster.MonsterId" method="post">
                             <input type="submit" value="Delete">
                         </form>
                         <a href="/@monster.MonsterId/edit">Edit</a>
