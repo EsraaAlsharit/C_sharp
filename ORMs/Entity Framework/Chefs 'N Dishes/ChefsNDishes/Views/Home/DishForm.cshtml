@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Create Dish";
+}
+@model Dish
+@* , List<Chef> *@
+@* @model dynamic *@
+
+<div class="text-center">
+    <h1 class="display-4">Add a dish</h1>
+    <hr />
+    <form asp-controller="Home" asp-action="CreateDish" method="post">
+        <div>
+            <label asp-for="Name">Name of Dish:</label>
+            <input asp-for="Name">
+             <span asp-validation-for="Name"></span>
+        </div>
+        <div>
+            <label asp-for="ChefId">Chef's Name:</label>
+            @* <select asp-for="ChefId" type="text" asp-items="new SelectList(ViewBag.AllChefs)"> *@
+            <select asp-for="ChefId" type="text" >
+                    @foreach (var item in @ViewBag.AllChefs)
+{   
+                <option value="@item.ChefId" >@item.FirstName @item.LastName</option>
+}
+            </select>
+             <span asp-validation-for="ChefId"></span>
+
+            @* <p>@ViewBag.AllChefs</p> *@
+            </div>
+            <div>
+                <label asp-for="Tastiness">Tastiness:</label>
+                <input asp-for="Tastiness" type="text">
+             <span asp-validation-for="Tastiness"></span>
+
+            </div>
+            <div>
+                <label asp-for="Calories"># of Calories:</label>
+                <input asp-for="Calories" type="text">
+             <span asp-validation-for="Calories"></span>
+
+            </div>
+            <div>
+                <input type="submit" value="Add Dish" />
+            </div>
+        </form>
+    </div>
