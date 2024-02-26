@@ -14,6 +14,7 @@ public class Chef
     [PastDate]
 
     public DateTime DOB { get; set; }
+    // [Adult]
     public int Age { get; set; }
 
     //time stamp
@@ -23,6 +24,21 @@ public class Chef
     // Our navigation property to track the many Posts our user has made
     // Be sure to include the part about instantiating a new List!
     public List<Dish> AllDishes { get; set; } = new List<Dish>();
+}
+
+public class AdultAttribute : ValidationAttribute
+{
+    protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+    {
+        if (((int)value) < 18)
+        {
+            return new ValidationResult("Chef must be at least 18 years old");
+        }
+        else
+        {
+            return ValidationResult.Success;
+        }
+    }
 }
 
 public class PastDateAttribute : ValidationAttribute

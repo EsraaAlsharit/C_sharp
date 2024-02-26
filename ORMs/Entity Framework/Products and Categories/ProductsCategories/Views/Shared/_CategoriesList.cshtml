@@ -1,0 +1,13 @@
+@* @model List<Category> *@
+
+
+<div class="text-center">
+    <h1 class="display-4">All Categories</h1>
+    <ul>
+        @foreach (var item in @ViewBag.AllCategories)
+        {
+            <li><a asp-controller="Home" asp-action="Category" asp-route-id="@item.CategoryId">@item.Name</a></li>
+        }
+    </ul>
+
+</div>

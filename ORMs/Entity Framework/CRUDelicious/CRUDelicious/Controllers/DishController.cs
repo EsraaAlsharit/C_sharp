@@ -20,7 +20,6 @@ public class DishController : Controller
     public IActionResult Index()
     {
         List<Dish> AllDishes = _context.Dishes.ToList();
-
         return View(AllDishes);
     }
 
@@ -67,7 +66,6 @@ public class DishController : Controller
         {
             // Handle unsuccessful validations
             return View("Edit", newDish);
-
         }
     }
 
