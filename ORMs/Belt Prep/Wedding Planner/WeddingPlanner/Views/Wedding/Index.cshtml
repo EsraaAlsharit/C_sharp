@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+@model List<Wedding>
+<div class="text-center">
+    <table>
+        <thead>
+            <tr>
+                <th>Wedding of</th>
+                <th>Date</th>
+                <th>Guest Count</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in @Model)
+            {
+                <tr>
+                    <td>@item.WedderOne & @item.WedderTwo</td>
+                    <td>@item.Date.ToShortDateString()</td>
+                    <td>@item.Guests.Count</td>
+                    <td>
+                        @if (Context.Session.GetInt32("UserId")==item.UserId)
+                            {
+                                <form asp-action="Destroy" asp-controller="Wedding" asp-route-id="@item.WeddingId" method="post">
+                                    <input type="submit" class="btn" value="Delete">
+                                </form>
+                            }else{    
+                                <a asp-controller="Wedding" asp-action="Show" asp-route-id="@item.WeddingId">show</a>
+                                @* <a href="/">RSVP</a>
+
+                                <a href="/">Un- RSVP</a> *@
+                                <form asp-action="Update" asp-controller="Wedding" asp-route-id="@item.WeddingId" asp-route-userId="@Context.Session.GetInt32("UserId")" method="post">
+                                    <input type="submit" class="btn" value="RSVP">
+                                </form>
+                            }
+                    </td>
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+</div>

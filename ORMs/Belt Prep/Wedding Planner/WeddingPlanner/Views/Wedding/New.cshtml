@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Create Wedding";
+}
+@model Wedding
+
+<div class="text-center">
+    <h2>Plan a Wedding</h2>
+
+    <form asp-controller="Wedding" asp-action="Create" method="post">
+        <input asp-for="UserId" value="@Context.Session.GetInt32("UserId")" hidden />
+
+        <div>
+            <label asp-for="WedderOne">Wedder One:</label>
+            <input asp-for="WedderOne">
+            <span asp-validation-for="WedderOne"></span>
+
+        </div>
+        <div>
+            <label asp-for="WedderTwo">Wedder Two:</label>
+            <input asp-for="WedderTwo">
+            <span asp-validation-for="WedderTwo"></span>
+        </div>
+        <div>
+            <label asp-for="Date">Date:</label>
+            <input asp-for="Date" type="date">
+            <span asp-validation-for="Date"></span>
+        </div>
+        <div>
+            <label asp-for="Address">Address:</label>
+            <input asp-for="Address">
+            <span asp-validation-for="Date"></span>
+
+            <div>
+                <input type="submit" value="Create" />
+            </div>
+    </form>
+</div>

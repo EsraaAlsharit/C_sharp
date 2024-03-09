@@ -1,0 +1,125 @@
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+// Add this using statement to be able to use PasswordHasher
+using Microsoft.AspNetCore.Identity;
+//for checking the seestion 
+using Microsoft.AspNetCore.Mvc.Filters;
+
+using WeddingPlanner.Models;
+
+namespace WeddingPlanner.Controllers;
+
+public class WeddingController : Controller
+{
+    private MyContext _context;
+
+    private readonly ILogger<WeddingController> _logger;
+
+    public WeddingController(ILogger<WeddingController> logger, MyContext context)
+    {
+        _logger = logger;
+        _context = context;
+    }
+
+    [SessionCheck]
+    public IActionResult Index()
+    {
+        // List<Wedding> AllWenddings = _context.Weddings.Include(w => w.Guests).ToList();
+        List<Wedding> AllWenddings = _context.Weddings.ToList();
+        return View(AllWenddings);
+    }
+
+    [SessionCheck]
+    public IActionResult New()
+    {
+        return View();
+    }
+    [SessionCheck]
+
+    public IActionResult Create(Wedding NewWedding)
+    {
+        Console.WriteLine("HI");
+        Console.WriteLine(NewWedding.UserId);
+
+
+        if (ModelState.IsValid)
+        {
+
+            // NewWedding.UserId = (int)HttpContext.Session.GetInt32("UserId");
+
+            _context.Add(NewWedding);
+            _context.SaveChanges();
+
+            return RedirectToAction("Show", new { id = NewWedding.WeddingId });
+        }
+        else
+        {
+            return View("New");
+        }
+    }
+
+    [SessionCheck]
+
+    // [HttpGet("{id}")]
+    public IActionResult Show(int id)
+    {
+        Wedding? wedding = _context.Weddings.Include(c => c.Guests).FirstOrDefault(i => i.WeddingId == id);
+        return View(wedding);
+    }
+
+    [HttpPost("{id}/destroy")]
+    public IActionResult Destroy(int id)
+    {
+        Wedding? WeddingToDelete = _context.Weddings.SingleOrDefault(i => i.WeddingId == id);
+        _context.Weddings.Remove(WeddingToDelete);
+        _context.SaveChanges();
+        return RedirectToAction("Index");
+    }
+
+    [HttpPost("{id}/{userId}/update")]
+    public IActionResult Update(int id, int userId)
+    {
+
+        Console.WriteLine("update");
+
+        Wedding? wedding = _context.Weddings.FirstOrDefault(i => i.WeddingId == id);
+        User? user = _context.Users.FirstOrDefault(i => i.UserId == userId);
+
+
+        wedding.Guests.Add(user);
+
+        wedding.UpdatedAt = DateTime.Now;
+
+        _context.SaveChanges();
+        return RedirectToAction("Index");
+
+
+    }
+
+    // Name this anything you want with the word "Attribute" at the end
+    public class SessionCheckAttribute : ActionFilterAttribute
+    {
+        public override void OnActionExecuting(ActionExecutingContext context)
+        {
+            // Find the session, but remember it may be null so we need int?
+            int? userId = context.HttpContext.Session.GetInt32("UserId");
+            // Check to see if we got back null
+            Console.WriteLine(userId == null);
+
+            if (userId == null)
+            {
+                // Redirect to the Index page if there was nothing in session
+                // "Home" here is referring to "HomeController", you can use any controller that is appropriate here
+                context.Result = new RedirectToActionResult("Index", "Home", null);
+            }
+        }
+    }
+
+
+
+    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    public IActionResult Error()
+    {
+        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+}
