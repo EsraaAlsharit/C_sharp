@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\DrinkMaker.csproj": {}
+    "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\DrinkMaker.csproj": {}
   },
   "projects": {
-    "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\DrinkMaker.csproj": {
+    "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\DrinkMaker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\DrinkMaker.csproj",
+        "projectUniqueName": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\DrinkMaker.csproj",
         "projectName": "DrinkMaker",
-        "projectPath": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\DrinkMaker.csproj",
+        "projectPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\DrinkMaker.csproj",
         "packagesPath": "C:\\Users\\asr27\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\obj\\",
+        "outputPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Drink Maker\\DrinkMaker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

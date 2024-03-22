@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Create Wedding";
+}
+@model Guest
+
+@* <form asp-action="addGuest" asp-controller="Wedding" asp-route-id="@item.WeddingId" method="post"> *@
+<form action="addGuest" method="post">
+
+    @* <input asp-for="WeddingId" class="form-control" value="@item.WeddingId" hidden /> *@
+    @* <input asp-for="UserId" value="@Context.Session.GetInt32("UserId")" hidden /> *@
+    <input  name="WeddingId" hidden/>
+    <input  name="UserId" value="@Context.Session.GetInt32("UserId")" hidden />
+
+    <input type="submit" class="btn" value="RSVP" />
+
+
+</form>

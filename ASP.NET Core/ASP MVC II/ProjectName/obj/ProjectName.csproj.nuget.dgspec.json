@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC II\\ProjectName\\ProjectName.csproj": {}
+    "d:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC II\\ProjectName\\ProjectName.csproj": {}
   },
   "projects": {
-    "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC II\\ProjectName\\ProjectName.csproj": {
+    "d:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC II\\ProjectName\\ProjectName.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC II\\ProjectName\\ProjectName.csproj",
+        "projectUniqueName": "d:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC II\\ProjectName\\ProjectName.csproj",
         "projectName": "ProjectName",
-        "projectPath": "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC II\\ProjectName\\ProjectName.csproj",
+        "projectPath": "d:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC II\\ProjectName\\ProjectName.csproj",
         "packagesPath": "C:\\Users\\asr27\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC II\\ProjectName\\obj\\",
+        "outputPath": "d:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC II\\ProjectName\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

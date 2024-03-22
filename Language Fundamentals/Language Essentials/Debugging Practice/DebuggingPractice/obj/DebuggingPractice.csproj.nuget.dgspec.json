@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Debugging Practice\\DebuggingPractice\\DebuggingPractice.csproj": {}
+    "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Debugging Practice\\DebuggingPractice\\DebuggingPractice.csproj": {}
   },
   "projects": {
-    "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Debugging Practice\\DebuggingPractice\\DebuggingPractice.csproj": {
+    "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Debugging Practice\\DebuggingPractice\\DebuggingPractice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Debugging Practice\\DebuggingPractice\\DebuggingPractice.csproj",
+        "projectUniqueName": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Debugging Practice\\DebuggingPractice\\DebuggingPractice.csproj",
         "projectName": "DebuggingPractice",
-        "projectPath": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Debugging Practice\\DebuggingPractice\\DebuggingPractice.csproj",
+        "projectPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Debugging Practice\\DebuggingPractice\\DebuggingPractice.csproj",
         "packagesPath": "C:\\Users\\asr27\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Debugging Practice\\DebuggingPractice\\obj\\",
+        "outputPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Debugging Practice\\DebuggingPractice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

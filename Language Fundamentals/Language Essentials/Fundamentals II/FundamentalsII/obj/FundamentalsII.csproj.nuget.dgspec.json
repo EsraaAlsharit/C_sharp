@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals II\\FundamentalsII\\FundamentalsII.csproj": {}
+    "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals II\\FundamentalsII\\FundamentalsII.csproj": {}
   },
   "projects": {
-    "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals II\\FundamentalsII\\FundamentalsII.csproj": {
+    "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals II\\FundamentalsII\\FundamentalsII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals II\\FundamentalsII\\FundamentalsII.csproj",
+        "projectUniqueName": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals II\\FundamentalsII\\FundamentalsII.csproj",
         "projectName": "FundamentalsII",
-        "projectPath": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals II\\FundamentalsII\\FundamentalsII.csproj",
+        "projectPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals II\\FundamentalsII\\FundamentalsII.csproj",
         "packagesPath": "C:\\Users\\asr27\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals II\\FundamentalsII\\obj\\",
+        "outputPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals II\\FundamentalsII\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\PortfolioII.csproj": {}
+    "d:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\PortfolioII.csproj": {}
   },
   "projects": {
-    "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\PortfolioII.csproj": {
+    "d:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\PortfolioII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\PortfolioII.csproj",
+        "projectUniqueName": "d:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\PortfolioII.csproj",
         "projectName": "PortfolioII",
-        "projectPath": "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\PortfolioII.csproj",
+        "projectPath": "d:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\PortfolioII.csproj",
         "packagesPath": "C:\\Users\\asr27\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\obj\\",
+        "outputPath": "d:\\Coding dojo couress\\C_sharp\\ASP.NET Core\\ASP MVC I\\Portfolio II\\PortfolioII\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

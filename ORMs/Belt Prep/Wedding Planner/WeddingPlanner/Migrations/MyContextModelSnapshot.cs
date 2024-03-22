@@ -19,6 +19,33 @@ namespace WeddingPlanner.Migrations
                 .HasAnnotation("ProductVersion", "6.0.3")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("WeddingPlanner.Models.Guest", b =>
+                {
+                    b.Property<int>("GuestId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("WeddingId")
+                        .HasColumnType("int");
+
+                    b.HasKey("GuestId");
+
+                    b.HasIndex("UserId");
+
+                    b.HasIndex("WeddingId");
+
+                    b.ToTable("Guests");
+                });
+
             modelBuilder.Entity("WeddingPlanner.Models.User", b =>
                 {
                     b.Property<int>("UserId")
@@ -47,12 +74,7 @@ namespace WeddingPlanner.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int?>("WeddingId")
-                        .HasColumnType("int");
-
                     b.HasKey("UserId");
-
-                    b.HasIndex("WeddingId");
 
                     b.ToTable("Users");
                 });
@@ -94,11 +116,23 @@ namespace WeddingPlanner.Migrations
                     b.ToTable("Weddings");
                 });
 
-            modelBuilder.Entity("WeddingPlanner.Models.User", b =>
+            modelBuilder.Entity("WeddingPlanner.Models.Guest", b =>
                 {
-                    b.HasOne("WeddingPlanner.Models.Wedding", null)
+                    b.HasOne("WeddingPlanner.Models.User", "User")
                         .WithMany("Guests")
-                        .HasForeignKey("WeddingId");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WeddingPlanner.Models.Wedding", "Wedding")
+                        .WithMany("Guests")
+                        .HasForeignKey("WeddingId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+
+                    b.Navigation("Wedding");
                 });
 
             modelBuilder.Entity("WeddingPlanner.Models.Wedding", b =>
@@ -110,6 +144,11 @@ namespace WeddingPlanner.Migrations
                         .IsRequired();
 
                     b.Navigation("Creator");
+                });
+
+            modelBuilder.Entity("WeddingPlanner.Models.User", b =>
+                {
+                    b.Navigation("Guests");
                 });
 
             modelBuilder.Entity("WeddingPlanner.Models.Wedding", b =>

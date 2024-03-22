@@ -4,6 +4,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity;
 //for checking the seestion 
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.EntityFrameworkCore;
+
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
 
 using WeddingPlanner.Models;
 
@@ -24,9 +30,13 @@ public class WeddingController : Controller
     [SessionCheck]
     public IActionResult Index()
     {
-        // List<Wedding> AllWenddings = _context.Weddings.Include(w => w.Guests).ToList();
-        List<Wedding> AllWenddings = _context.Weddings.ToList();
+        // List<Wedding> AllWenddings = _context.Weddings.ToList();
+        // List<Wedding> AllWenddings = _context.Weddings.Include(g => g.Guests).ToList();
+
+        List<Wedding> AllWenddings = _context.Weddings.Include(g => g.Guests).ThenInclude(g => g.User).ToList();
+
         return View(AllWenddings);
+
     }
 
     [SessionCheck]
@@ -63,8 +73,11 @@ public class WeddingController : Controller
     // [HttpGet("{id}")]
     public IActionResult Show(int id)
     {
-        Wedding? wedding = _context.Weddings.Include(c => c.Guests).FirstOrDefault(i => i.WeddingId == id);
+        Wedding? wedding = _context.Weddings.Include(Ass => Ass.Guests)
+        .ThenInclude(Ass => Ass.User)
+        .FirstOrDefault(i => i.WeddingId == id);
         return View(wedding);
+        // return View();
     }
 
     [HttpPost("{id}/destroy")]
@@ -74,26 +87,27 @@ public class WeddingController : Controller
         _context.Weddings.Remove(WeddingToDelete);
         _context.SaveChanges();
         return RedirectToAction("Index");
+        
     }
 
-    [HttpPost("{id}/{userId}/update")]
-    public IActionResult Update(int id, int userId)
+    [HttpPost("addGuest")]
+    public IActionResult addGuest(int id, Guest newGuest)
     {
 
-        Console.WriteLine("update");
+        // Console.WriteLine("update");
 
-        Wedding? wedding = _context.Weddings.FirstOrDefault(i => i.WeddingId == id);
-        User? user = _context.Users.FirstOrDefault(i => i.UserId == userId);
+        // Wedding? wedding = _context.Weddings.FirstOrDefault(i => i.WeddingId == id);
+        // User? user = _context.Users.FirstOrDefault(i => i.UserId == userId);
+        // wedding.Guests.Add(user);
 
+        // wedding.UpdatedAt = DateTime.Now;
 
-        wedding.Guests.Add(user);
-
-        wedding.UpdatedAt = DateTime.Now;
-
+        _context.Add(newGuest);
         _context.SaveChanges();
+
+
         return RedirectToAction("Index");
-
-
+        // return RedirectToAction("Product", new { id = newAssociation.ProductId });
     }
 
     // Name this anything you want with the word "Attribute" at the end

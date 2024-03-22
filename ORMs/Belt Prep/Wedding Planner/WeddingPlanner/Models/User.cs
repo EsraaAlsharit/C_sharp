@@ -23,7 +23,7 @@ public class User
     public string Password { get; set; }
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime UpdatedAt { get; set; } = DateTime.Now;
-    public List<Guest> AllWeddings { get; set; } = new List<Guest>();
+    public List<Guest> Guests { get; set; } = new List<Guest>();
 
     // This does not need to be moved to the bottom
     // But it helps make it clear what is being mapped and what is not

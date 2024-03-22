@@ -3,6 +3,8 @@
 }
 
 @model List<Wedding>
+
+
 <div class="text-center">
     <table>
         <thead>
@@ -21,20 +23,35 @@
                     <td>@item.Date.ToShortDateString()</td>
                     <td>@item.Guests.Count</td>
                     <td>
-                        @if (Context.Session.GetInt32("UserId")==item.UserId)
-                            {
-                                <form asp-action="Destroy" asp-controller="Wedding" asp-route-id="@item.WeddingId" method="post">
-                                    <input type="submit" class="btn" value="Delete">
-                                </form>
-                            }else{    
-                                <a asp-controller="Wedding" asp-action="Show" asp-route-id="@item.WeddingId">show</a>
-                                @* <a href="/">RSVP</a>
+                        <a asp-controller="Wedding" asp-action="Show" asp-route-id="@item.WeddingId">show</a>
 
-                                <a href="/">Un- RSVP</a> *@
-                                <form asp-action="Update" asp-controller="Wedding" asp-route-id="@item.WeddingId" asp-route-userId="@Context.Session.GetInt32("UserId")" method="post">
-                                    <input type="submit" class="btn" value="RSVP">
-                                </form>
-                            }
+                        @if (Context.Session.GetInt32("UserId") == item.UserId)
+                        {
+                            <form asp-action="Destroy" asp-controller="Wedding" asp-route-id="@item.WeddingId" method="post">
+                                <input type="submit" class="btn" value="Delete" />
+                            </form>
+                        }
+                        else
+                        {
+
+                            @* @if (item.Guests.)
+                            {
+<p>HI</p>
+                            } *@
+
+                            @* @await Html.PartialAsync("_Guest") *@
+                            <form action="addGuest" method="post">
+
+                                @* <input asp-for="WeddingId" class="form-control" value="@item.WeddingId" hidden /> *@
+                                @* <input asp-for="UserId" value="@Context.Session.GetInt32("UserId")" hidden /> *@
+                                <input name="WeddingId" value="@item.WeddingId" hidden />
+                                <input name="UserId" value="@Context.Session.GetInt32("UserId")" hidden />
+
+                                <input type="submit" class="btn" value="RSVP" />
+
+
+                            </form>
+                        }
                     </td>
                 </tr>
             }

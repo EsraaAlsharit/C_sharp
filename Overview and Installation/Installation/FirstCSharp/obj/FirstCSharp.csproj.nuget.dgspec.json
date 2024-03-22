@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding dojo couress\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\FirstCSharp.csproj": {}
+    "d:\\Coding dojo couress\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\FirstCSharp.csproj": {}
   },
   "projects": {
-    "D:\\Coding dojo couress\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\FirstCSharp.csproj": {
+    "d:\\Coding dojo couress\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\FirstCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding dojo couress\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\FirstCSharp.csproj",
+        "projectUniqueName": "d:\\Coding dojo couress\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\FirstCSharp.csproj",
         "projectName": "FirstCSharp",
-        "projectPath": "D:\\Coding dojo couress\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\FirstCSharp.csproj",
+        "projectPath": "d:\\Coding dojo couress\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\FirstCSharp.csproj",
         "packagesPath": "C:\\Users\\asr27\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding dojo couress\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\obj\\",
+        "outputPath": "d:\\Coding dojo couress\\C_sharp\\Overview and Installation\\Installation\\FirstCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

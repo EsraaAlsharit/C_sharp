@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals III\\FundamentalsIII\\FundamentalsIII.csproj": {}
+    "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals III\\FundamentalsIII\\FundamentalsIII.csproj": {}
   },
   "projects": {
-    "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals III\\FundamentalsIII\\FundamentalsIII.csproj": {
+    "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals III\\FundamentalsIII\\FundamentalsIII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals III\\FundamentalsIII\\FundamentalsIII.csproj",
+        "projectUniqueName": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals III\\FundamentalsIII\\FundamentalsIII.csproj",
         "projectName": "FundamentalsIII",
-        "projectPath": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals III\\FundamentalsIII\\FundamentalsIII.csproj",
+        "projectPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals III\\FundamentalsIII\\FundamentalsIII.csproj",
         "packagesPath": "C:\\Users\\asr27\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals III\\FundamentalsIII\\obj\\",
+        "outputPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\Language Essentials\\Fundamentals III\\FundamentalsIII\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

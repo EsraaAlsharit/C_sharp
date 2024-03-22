@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj": {}
+    "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj": {}
   },
   "projects": {
-    "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj": {
+    "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj",
+        "projectUniqueName": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj",
         "projectName": "FuelUp",
-        "projectPath": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj",
+        "projectPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\FuelUp.csproj",
         "packagesPath": "C:\\Users\\asr27\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\obj\\",
+        "outputPath": "d:\\Coding dojo couress\\C_sharp\\Language Fundamentals\\OOP With C#\\Fuel Up\\FuelUp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
