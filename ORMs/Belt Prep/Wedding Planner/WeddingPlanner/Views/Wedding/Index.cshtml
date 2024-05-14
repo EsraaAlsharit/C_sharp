@@ -34,22 +34,23 @@
                         else
                         {
 
-                            @* @if (item.Guests.)
-                            {
-<p>HI</p>
-                            } *@
-
-                            @* @await Html.PartialAsync("_Guest") *@
                             <form action="addGuest" method="post">
-
-                                @* <input asp-for="WeddingId" class="form-control" value="@item.WeddingId" hidden /> *@
-                                @* <input asp-for="UserId" value="@Context.Session.GetInt32("UserId")" hidden /> *@
                                 <input name="WeddingId" value="@item.WeddingId" hidden />
                                 <input name="UserId" value="@Context.Session.GetInt32("UserId")" hidden />
 
-                                <input type="submit" class="btn" value="RSVP" />
+@{ViewBag.isGuest = 0;}
 
+    @for (int i = 0; i < @item.Guests.Count; i++)
+        {
+            @if (@item.Guests[i].User.UserId == Context.Session.GetInt32("UserId"))
+            ViewBag.isGuest= 1;
+        }
 
+            @if (ViewBag.isGuest==1){
+                <input type="submit" class="btn" value=" Un-RSVP" />
+            }else{
+                <input type="submit" class="btn" value="RSVP" />
+            }
                             </form>
                         }
                     </td>

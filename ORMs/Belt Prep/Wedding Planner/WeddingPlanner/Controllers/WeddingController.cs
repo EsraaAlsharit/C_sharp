@@ -48,15 +48,11 @@ public class WeddingController : Controller
 
     public IActionResult Create(Wedding NewWedding)
     {
-        Console.WriteLine("HI");
-        Console.WriteLine(NewWedding.UserId);
-
-
+        // Console.WriteLine("HI");
+        // Console.WriteLine(NewWedding.UserId);
         if (ModelState.IsValid)
         {
-
             // NewWedding.UserId = (int)HttpContext.Session.GetInt32("UserId");
-
             _context.Add(NewWedding);
             _context.SaveChanges();
 
@@ -69,7 +65,6 @@ public class WeddingController : Controller
     }
 
     [SessionCheck]
-
     // [HttpGet("{id}")]
     public IActionResult Show(int id)
     {
@@ -87,24 +82,27 @@ public class WeddingController : Controller
         _context.Weddings.Remove(WeddingToDelete);
         _context.SaveChanges();
         return RedirectToAction("Index");
-        
+
     }
 
     [HttpPost("addGuest")]
     public IActionResult addGuest(int id, Guest newGuest)
     {
 
-        // Console.WriteLine("update");
+        Guest? guest = null;
+        guest = _context.Guests.SingleOrDefault(i => i.UserId == newGuest.UserId && i.WeddingId == newGuest.WeddingId);
 
-        // Wedding? wedding = _context.Weddings.FirstOrDefault(i => i.WeddingId == id);
-        // User? user = _context.Users.FirstOrDefault(i => i.UserId == userId);
-        // wedding.Guests.Add(user);
 
-        // wedding.UpdatedAt = DateTime.Now;
-
-        _context.Add(newGuest);
+        if (guest == null)
+        {
+            _context.Add(newGuest);
+            _context.SaveChanges();
+        }
+        else
+        {
+        _context.Guests.Remove(guest);
         _context.SaveChanges();
-
+        }
 
         return RedirectToAction("Index");
         // return RedirectToAction("Product", new { id = newAssociation.ProductId });
