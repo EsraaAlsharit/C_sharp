@@ -13,7 +13,6 @@ Sometimes, your fellow programmers will hit a snag on their part of the project,
 This is the moment that you become a debugger. And not just a debugger for your own code, but a debugger of someone else's code. The ability to read, understand, and--most importantly right now--debug someone else's code is vital in the working world. You will commonly find yourself reading other people's code, whether they're examples online or your coworker's files. Reading and debugging code are everyday parts of being a programmer.
 
 This assignment will have you debugging someone else's code. Your coworker is working on a project where a client is able to put their name and location into a form, and after successful submission, they are taken to a page that generates a random 14-character passcode for them. The user is then able to either generate another passcode or log out of the application.
- <!-- [this zip file](https://assets.codingdojo.com/boomyeah2015/codingdojo/curriculum/content/chapter/1667502059__DebuggingChallenge.zip) -->
 Download [this zip file](asset/1667502059__DebuggingChallenge.zip) to access the code. Unzip the contents and save your own version of the project. You may need to run `dotnet restore` in the project terminal after saving the files to make sure everything is up to date.
 
 Now that you have the files, it's time to start debugging. Below is a list of all the actions you should be able to successfully complete. Test every one of these features to make sure they work before you call this assignment complete!
