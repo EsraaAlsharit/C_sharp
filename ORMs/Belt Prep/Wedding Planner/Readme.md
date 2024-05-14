@@ -50,5 +50,4 @@ Create a web application that allows registered users to plan a wedding. Users c
 
 - [x] Session is used to validate login credentials.
 
-- [ ] All validations met.
-<!-- - Users can Un-RSVP from a wedding they are currently attending -->
+- [x] All validations met.
