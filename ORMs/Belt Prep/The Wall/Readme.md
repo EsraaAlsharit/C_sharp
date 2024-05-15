@@ -29,7 +29,7 @@ Download the wireframe [here](asset/1663103446__TheWall.png).
 
 ![](asset/1663102982__TheWall.png)
 
-- [ ] User can login and register
+- [x] User can login and register
 
 - [ ] User can post a message (with validations)
 
@@ -39,4 +39,4 @@ Download the wireframe [here](asset/1663103446__TheWall.png).
 
 - [ ] Bonus: user can delete their comment
 
-- [ ] User can logout
+- [x] User can logout

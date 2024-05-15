@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+@model List<Wedding>
+
+
+<div class="text-center">
+    @* post a message *@
+    <table>
+        <thead>
+            <tr>
+                <th>@item.Creator & @item.CreatedAt</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>MessageText</td>
+                <td>
+                    <a asp-controller="Wedding" asp-action="Show" asp-route-id="@item.WeddingId">show</a>
+
+                    @if (Context.Session.GetInt32("UserId") == item.UserId)
+                    {
+                        <form asp-action="Destroy" asp-controller="Wedding" asp-route-id="@item.WeddingId" method="post">
+                            <input type="submit" class="btn" value="Delete" />
+                        </form>
+                    }
+                    else
+                    {
+
+                        <form action="addGuest" method="post">
+                            <input name="WeddingId" value="@item.WeddingId" hidden />
+                            <input name="UserId" value="@Context.Session.GetInt32("UserId")" hidden />
+
+                        </form>
+                    }
+                </td>
+            </tr>
+            <tr>
+                <table>
+                    @foreach (var item in @Model)
+                    {
+                        <tr>
+                            <td></td>
+                        </tr>
+
+                    }
+                    <tr>
+                        <td></td>
+                        @* post a comment *@
+                    </tr>
+                </table>
+            </tr>
+
+
+        </tbody>
+    </table>
+</div>
