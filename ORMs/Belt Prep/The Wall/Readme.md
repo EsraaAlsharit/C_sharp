@@ -31,12 +31,12 @@ Download the wireframe [here](asset/1663103446__TheWall.png).
 
 - [x] User can login and register
 
-- [ ] User can post a message (with validations)
+- [x] User can post a message (with validations)
 
-- [ ] User can post a comment (with validations)
+- [x] User can post a comment (with validations)
 
-- [ ] Bonus: user can delete their post
+- [x] Bonus: user can delete their post
 
-- [ ] Bonus: user can delete their comment
+- [x] Bonus: user can delete their comment
 
 - [x] User can logout
