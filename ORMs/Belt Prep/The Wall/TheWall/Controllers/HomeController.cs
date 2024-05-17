@@ -74,7 +74,7 @@ public class HomeController : Controller
             HttpContext.Session.SetInt32("UserId", userInDb.UserId);
             HttpContext.Session.SetString("Name", userInDb.FirstName);
 
-            return RedirectToAction("Index", "Wedding");
+            return RedirectToAction("Index", "Message");
         }
         else
         {

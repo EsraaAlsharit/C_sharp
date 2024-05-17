@@ -15,66 +15,52 @@ using TheWall.Models;
 
 namespace TheWall.Controllers;
 
-public class MessageController : Controller
+public class CommentController : Controller
 {
     private MyContext _context;
 
-    private readonly ILogger<MessageController> _logger;
+    private readonly ILogger<CommentController> _logger;
 
-    public MessageController(ILogger<MessageController> logger, MyContext context)
+    public CommentController(ILogger<CommentController> logger, MyContext context)
     {
         _logger = logger;
         _context = context;
     }
 
     [SessionCheck]
-    public IActionResult Index()
-    {
-        // List<Messages> AllMessages = _context.Messages.ToList();
-        Post post = new Post
-        {
-            AllMessages = _context.Messages.Include(g => g.Creator).ToList(),
-            AllComments = _context.Comments.Include(g => g.Creator).Include(g => g.Message).ToList()
-        };
-        // List<Message> AllMessages = _context.Messages.Include(g => g.Creator).ToList();
-
-        // List<Comment> AllMessages = _context.Comment.Include(g => g.Guests).ThenInclude(g => g.User).ToList();
-
-        return View(post);
-
-    }
-
-    [SessionCheck]
-    public IActionResult Create(Message NewMessage)
+    public IActionResult Create(Comment NewComment)
     {
         if (ModelState.IsValid)
         {
-            _context.Add(NewMessage);
+            _context.Add(NewComment);
             _context.SaveChanges();
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Message");
+            // return RedirectToActionResult("Index", "Message", null);
             // return RedirectToAction("Show", new { id = NewMessage.MessageId });
         }
         else
         {
-               Post post = new Post
-        {
-            AllMessages = _context.Messages.Include(g => g.Creator).ToList(),
+            Post post = new Post
+            {
+                AllMessages = _context.Messages.Include(g => g.Creator).ToList(),
             AllComments = _context.Comments.Include(g => g.Creator).Include(g => g.Message).ToList()
-        };
-            return View("Index", post);
+            };
+            // return RedirectToActionResult("Index", "Message", null);
+
+            return View("Index");
         }
     }
 
 
-    [HttpPost("{id}/destroy")]
-    public IActionResult Destroy(int id)
+    [HttpPost("{id}/remove")]
+    public IActionResult Remove(int id)
     {
-        Message? MessageToDelete = _context.Messages.SingleOrDefault(i => i.MessageId == id);
-        _context.Messages.Remove(MessageToDelete);
+        Comment?CommentToDelete = _context.Comments.SingleOrDefault(i => i.CommentId == id);
+        _context.Comments.Remove(CommentToDelete);
 
         _context.SaveChanges();
-        return RedirectToAction("Index");
+        return RedirectToAction("Index", "Message");
 
     }
 

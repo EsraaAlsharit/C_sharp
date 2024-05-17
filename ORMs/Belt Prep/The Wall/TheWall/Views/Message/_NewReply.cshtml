@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Create Wedding";
+}
+@model Comment
+
+<form asp-controller="Comment" asp-action="Create" method="post">
+    <input asp-for="UserId" value="@Context.Session.GetInt32("UserId")" hidden />
+    <input asp-for="MessageId" value="@ViewBag.MessageId"  hidden />
+
+    <div>
+        <label asp-for="CommentText">Post a comment</label>
+        <br/>
+        <textarea asp-for="CommentText"></textarea>
+        <span asp-validation-for="CommentText"></span>
+
+    </div>
+    <div>
+        <input type="submit" value="Comment" class="btn btn-info"/>
+    </div>
+</form>
