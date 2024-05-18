@@ -13,10 +13,10 @@ You can download the wireframe to see all the details [here](asset/1663090395__E
 
 ![](asset/1661452526__E-Commerce.png)
 
-- [ ] Create an order page where the user can add and view orders
+- [x] Create an order page where the user can add and view orders
 
-- [ ] Create a customer page where the user can add, view, and delete customers
+- [x] Create a customer page where the user can add, view, and delete customers
 
-- [ ] Create a product page where the user can add and view products
+- [x] Create a product page where the user can add and view products
 
-- [ ] Create a dashboard that displays at least 3 of each item (orders, customers, and products) and links to the other pages
+- [x] Create a dashboard that displays at least 3 of each item (orders, customers, and products) and links to the other pages

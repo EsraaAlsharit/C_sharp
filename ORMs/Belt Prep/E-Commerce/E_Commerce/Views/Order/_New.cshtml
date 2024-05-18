@@ -1,0 +1,32 @@
+@model Order
+<div>
+    <h3 class="display-4">Add a new order</h3>
+    <form asp-action="Create" asp-controller="Order" method="post">
+        <div class="mb-3">
+            <label asp-for="CustomerId"></label>
+            <select asp-for="CustomerId">
+                @foreach (var item in @ViewBag.AllCustomers)
+                {
+                    <option value="@item.CustomerId">@item.Name</option>
+                }
+            </select>
+            <span asp-validation-for="CustomerId" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="ProductId"></label>
+            <select asp-for="ProductId">
+                @foreach (var item in @ViewBag.AllProducts)
+                {
+                    <option value="@item.ProductId">@item.Name</option>
+                }
+            </select>
+            <span asp-validation-for="ProductId" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Quantity"></label>
+            <input asp-for="Quantity" class="form-control">
+            <span asp-validation-for="Quantity" class="text-danger"></span>
+        </div>
+        <input type="submit" value="Order">
+    </form>
+</div>

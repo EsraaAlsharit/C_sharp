@@ -1,0 +1,13 @@
+@model Customer
+<div >
+    <h3 class="display-4">Add a new customer</h3>
+    <form asp-action="Create" asp-controller="Customer" method="post">
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+       
+        <input type="submit" value="Add">
+    </form>
+</div>

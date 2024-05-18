@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model DashboardCustomer
+<div>
+    @await Html.PartialAsync("_New", @Model.Customer)
+
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Joined on</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in @Model.AllCustomers)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.CreatedAt.ToString("MMMM d, yyyy")</td>
+                        <td>
+                            <form asp-action="Destroy" asp-controller="Customer" asp-route-id="@item.CustomerId"
+                                method="post">
+                                <input type="submit" class="btn" value="Delete" />
+                            </form>
+
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
+
+    </div>
+</div>

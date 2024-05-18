@@ -1,8 +1,40 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@model Dashboard
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="d-flex justify-content-around">
+
+    @foreach (var item in @Model.AllProducts)
+    {
+        <div class="card m-2">
+            <img class="card-img-top" src="@item.Image" alt="Card image cap" width="100" height="200">
+            <div class="card-body">
+                <h5 class="card-title">@item.Name</h5>
+                <p class="card-text">@item.Quantity left</p>
+
+            </div>
+        </div>
+    }
+    <a asp-controller="Product" asp-action="Index">Show more Products...</a>
+
+</div>
+<div>
+    <h3 class="display-3">Recent Orders</h3>
+    @foreach (var item in @Model.AllOrders)
+    {
+        <p>@item.Customer.Name purchased @item.Quantity @item.Product.Name
+            @DateTime.Today.Subtract(item.CreatedAt).TotalDays days ago</p>
+    }
+    <a asp-controller="Order" asp-action="Index">Show more Orders...</a>
+</div>
+
+<div>
+    <h3 class="display-3">New Customers</h3>
+    @foreach (var item in @Model.AllCustomers)
+    {
+        <p>@item.Name joined the store @DateTime.Today.Subtract(item.CreatedAt).TotalDays days ago</p>
+    }
+
+    <a asp-controller="Customer" asp-action="Index">Show more Customer...</a>
 </div>

@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model DashboardProduct
+<div class="d-flex justify-content-between">
+    @await Html.PartialAsync("_New", @Model.Product)
+
+    @* @await Html.PartialAsync("_New", @Model.Product) *@
+    <div class="w-75 p-3 d-flex flex-wrap">
+
+       @foreach (var item in @Model.AllProducts)
+        {
+            <div class="card w-25 m-3">
+                <img class="card-img-top" src="@item.Image" alt="Card image cap" width="100" height="200">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <p class="card-text">@item.Quantity left</p>
+                    
+                </div>
+            </div>
+        }
+
+    </div>
+</div>
