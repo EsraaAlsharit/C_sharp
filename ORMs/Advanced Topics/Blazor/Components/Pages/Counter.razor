@@ -1,0 +1,32 @@
+﻿@page "/counter"
+@* path is requrment  *@
+@* @page "/counter/{InitialCount}" *@
+@* InitialCount is optional *@
+@* without anything is string but we can specify the type of the parameter  *@
+@page "/counter/{InitialCount:int?}"
+
+@rendermode InteractiveServer
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<p>InitialCount @InitialCount</p>
+@code {
+    private int currentCount = 0;
+
+    protected override void OnInitialized(){
+        currentCount= InitialCount;
+    }
+
+[Parameter]
+public int InitialCount{get; set;}
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

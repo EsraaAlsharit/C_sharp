@@ -24,7 +24,7 @@
     @foreach (var item in @Model.AllOrders)
     {
         <p>@item.Customer.Name purchased @item.Quantity @item.Product.Name
-            @DateTime.Today.Subtract(item.CreatedAt).TotalDays days ago</p>
+            @((int)DateTime.Now.Subtract(item.CreatedAt).TotalDays) days ago</p>
     }
     <a asp-controller="Order" asp-action="Index">Show more Orders...</a>
 </div>
@@ -33,7 +33,7 @@
     <h3 class="display-3">New Customers</h3>
     @foreach (var item in @Model.AllCustomers)
     {
-        <p>@item.Name joined the store @DateTime.Today.Subtract(item.CreatedAt).TotalDays days ago</p>
+        <p>@item.Name joined the store @((int)DateTime.Now.Subtract(item.CreatedAt).TotalDays) days ago</p>
     }
 
     <a asp-controller="Customer" asp-action="Index">Show more Customer...</a>

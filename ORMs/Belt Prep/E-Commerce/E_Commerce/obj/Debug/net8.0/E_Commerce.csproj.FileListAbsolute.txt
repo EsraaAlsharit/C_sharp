@@ -32,9 +32,9 @@ D:\Coding dojo couress\C_sharp\ORMs\Belt Prep\E-Commerce\E_Commerce\obj\Debug\ne
 D:\Coding dojo couress\C_sharp\ORMs\Belt Prep\E-Commerce\E_Commerce\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Coding dojo couress\C_sharp\ORMs\Belt Prep\E-Commerce\E_Commerce\obj\Debug\net8.0\scopedcss\bundle\E_Commerce.styles.css
 D:\Coding dojo couress\C_sharp\ORMs\Belt Prep\E-Commerce\E_Commerce\obj\Debug\net8.0\scopedcss\projectbundle\E_Commerce.bundle.scp.css
-D:\Coding dojo couress\C_sharp\ORMs\Belt Prep\E-Commerce\E_Commerce\obj\Debug\net8.0\E_Commerce.csproj.CopyComplete
 D:\Coding dojo couress\C_sharp\ORMs\Belt Prep\E-Commerce\E_Commerce\obj\Debug\net8.0\E_Commerce.dll
 D:\Coding dojo couress\C_sharp\ORMs\Belt Prep\E-Commerce\E_Commerce\obj\Debug\net8.0\refint\E_Commerce.dll
 D:\Coding dojo couress\C_sharp\ORMs\Belt Prep\E-Commerce\E_Commerce\obj\Debug\net8.0\E_Commerce.pdb
 D:\Coding dojo couress\C_sharp\ORMs\Belt Prep\E-Commerce\E_Commerce\obj\Debug\net8.0\E_Commerce.genruntimeconfig.cache
 D:\Coding dojo couress\C_sharp\ORMs\Belt Prep\E-Commerce\E_Commerce\obj\Debug\net8.0\ref\E_Commerce.dll
+D:\Coding dojo couress\C_sharp\ORMs\Belt Prep\E-Commerce\E_Commerce\obj\Debug\net8.0\E_Commerce.csproj.Up2Date

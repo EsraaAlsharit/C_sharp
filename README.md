@@ -112,3 +112,17 @@ dotnet ef database update
 ```
 
 
+#
+
+dotnew have many [templete](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new) as 
+
+- `dotnet new console`
+- `dotnet new web`
+- `dotnet new mvc`
+- `dotnet new webapp`
+- `dotnet new webapi`
+- ...
+
+# 
+
+Another key difference between ASP.NET and .NET is the programming language used for development. While ASP.NET is developed using C#, .NET is developed using multiple languages, such as C#, Visual Basic, and F#. This makes .NET more versatile and allows developers to choose a language that works best for their project.
