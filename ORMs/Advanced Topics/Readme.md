@@ -23,7 +23,19 @@ In your terminal run the command
 ```md
 dotnet new blazorserver -o BlazorApp --no-https
 ```
-
+### add new file on componets pages folder 
 ```md
 dotnet new razorcomponent -n Todo -o Components/Pages
+```
+
+```md
+dotnet new razor --interactivity None -o  BlazorApp
+dotnet new razor -int None -o  BlazorApp
+dotnet new razor -int Auto -o  BlazorApp
+dotnet new razor -int server -o  BlazorApp
+```
+
+```md
+dotnet new razor -int Auto --allinteractvie -o  BlazorApp
+dotnet new razor -int Auto -ai -o  BlazorApp
 ```

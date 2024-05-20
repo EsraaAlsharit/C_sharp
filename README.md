@@ -104,6 +104,10 @@ or
 ```md
 dotnet ef migrations add FirstMigration -v
 ```
+to remove the migration
+```md
+dotnet ef migrations remove
+```
 
 ### push the changes for the database to sql
 it can be reuse for the code 
