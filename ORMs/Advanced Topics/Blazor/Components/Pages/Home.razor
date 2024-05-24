@@ -1,7 +1,46 @@
 ﻿@page "/"
+@inject HttpClient Http
+@rendermode InteractiveServer
+
+@code {
+    private Pokemon? Pokemon = null;
+	// New variables
+    private string? newPokemon;
+    private string currentPokemon = "pikachu";
+    // other code
+}
 
 <PageTitle>Home</PageTitle>
+@* pikachu  *@
+@* ditto *@
+<p>Who is your favorite Pokemon?</p>
+<input type="text" placeholder="Pikachu" @bind="newPokemon">
+<button @onclick="FetchPokemon">Fetch</button>
 
-<h1>Hello, world!</h1>
+@if(Pokemon == null)
+{
+    <p>Unable to access Pokemon, please try again.</p>
+} 
+else {
+    <div>
+        <img src="@Pokemon.Image.front" alt="@Pokemon.Name">
+        <p>I choose you, @Pokemon.Name!!</p>
+    </div>
+} 
 
-Welcome to your new app.
+@code{
+    // All our variables and the OnInitializedAsync method
+    private async Task FetchPokemon()
+    {
+        currentPokemon = newPokemon;
+        newPokemon = "";
+        var res = await Http.GetAsync($"https://pokeapi.co/api/v2/pokemon/{currentPokemon}");
+        if(res.IsSuccessStatusCode)
+        {
+            Pokemon = await res.Content.ReadFromJsonAsync<Pokemon>();
+        } else {
+            Pokemon = null;
+        }
+    }
+}
+
